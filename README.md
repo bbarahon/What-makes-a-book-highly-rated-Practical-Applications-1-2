@@ -6,7 +6,7 @@
 [![Task](https://img.shields.io/badge/task-binary_classification-0f766e)](#the-question)
 [![Status](https://img.shields.io/badge/status-experiments_pending-d97706)](#project-status)
 
-A machine learning project by **[Borja Barahona Gómez](https://github.com/bbarahon)**, developed for Practical Applications 1 and 2 of the MSc in Data Science at Universidad Politécnica de Madrid.
+*A Machine Learning project by **[Borja Barahona Gómez](https://github.com/bbarahon)**, developed for Practical Applications 1 + 2 of the MSc Data Science at UPM.*
 
 The project investigates whether bibliographic metadata can distinguish books rated **4 stars or above** from those rated below 4. It compares model families and feature-selection strategies, with an emphasis on honest evaluation and understanding what the models learn.
 
