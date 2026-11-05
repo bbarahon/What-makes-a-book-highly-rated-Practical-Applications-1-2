@@ -1,0 +1,14 @@
+Options: -F 3 -N 5.0 -O 2 -S 42
+Full-data training seconds: 32.924104977
+JRIP rules:
+===========
+
+(genre_fiction >= 1) and (has_series <= 0) and (genre_classics <= 0) => rating_class=low_rating (10351.0/3298.0)
+(genre_fiction >= 1) and (pages <= 0.023482) and (has_setting >= 1) => rating_class=low_rating (3686.0/1557.0)
+(pages <= 0.02822) and (genre_fiction >= 1) and (title_length <= 0.092) and (genre_science_fiction >= 1) => rating_class=low_rating (1855.0/757.0)
+(pages <= 0.028152) and (number_of_genres >= 0.2) and (title_length <= 0.08) and (has_series <= 0) and (genre_nonfiction <= 0) => rating_class=low_rating (2265.0/952.0)
+(number_of_genres >= 0.1) and (title_length <= 0.1) and (format_ebook <= 0) and (description_length >= 0.03275) and (pages <= 0.023279) and (genre_fantasy >= 1) and (genre_fiction >= 1) => rating_class=low_rating (572.0/245.0)
+(number_of_genres >= 0.1) and (genre_mystery >= 1) and (genre_classics >= 1) and (format_paperback <= 0) and (pages <= 0.016512) and (pages >= 0.01191) => rating_class=low_rating (50.0/2.0)
+ => rating_class=high_rating (33699.0/11815.0)
+
+Number of Rules : 7

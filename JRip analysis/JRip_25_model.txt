@@ -1,0 +1,35 @@
+Options: -F 3 -N 25.0 -O 2 -S 42
+Full-data training seconds: 138.101991513
+JRIP rules:
+===========
+
+(genre_fiction >= 1) and (has_series <= 0) and (genre_classics <= 0) and (genre_mystery >= 1) and (pages <= 0.027475) => rating_class=low_rating (1751.0/323.0)
+(genre_fiction >= 1) and (has_series <= 0) and (genre_classics <= 0) and (pages <= 0.024295) and (pages >= 0.007918) and (format_ebook <= 0) => rating_class=low_rating (4580.0/1203.0)
+(genre_fiction >= 1) and (has_series <= 0) and (title_length <= 0.072) and (pages <= 0.031739) and (format_paperback >= 1) and (pages >= 0.005685) => rating_class=low_rating (2281.0/717.0)
+(genre_fiction >= 1) and (has_series <= 0) and (pages <= 0.031739) and (pages >= 0.007512) and (genre_romance >= 1) => rating_class=low_rating (928.0/362.0)
+(genre_fiction >= 1) and (has_series <= 0) and (genre_classics <= 0) and (pages <= 0.030317) and (pages >= 0.007512) and (format_ebook <= 0) and (genre_mystery >= 1) => rating_class=low_rating (74.0/10.0)
+(genre_fiction >= 1) and (has_series <= 0) and (pages <= 0.02734) and (pages >= 0.007715) and (genre_classics <= 0) and (format_ebook <= 0) and (number_of_genres >= 0.5) => rating_class=low_rating (213.0/89.0)
+(genre_fiction >= 1) and (pages <= 0.026934) and (has_setting >= 1) and (genre_mystery >= 1) and (number_of_characters <= 0.004484) => rating_class=low_rating (734.0/250.0)
+(genre_fiction >= 1) and (has_series <= 0) and (pages <= 0.027543) and (pages >= 0.007512) and (format_paperback >= 1) => rating_class=low_rating (696.0/310.0)
+(genre_fiction >= 1) and (pages <= 0.026934) and (genre_mystery >= 1) and (genre_classics >= 1) => rating_class=low_rating (318.0/101.0)
+(genre_fiction >= 1) and (pages <= 0.026934) and (genre_science_fiction >= 1) and (title_length <= 0.04) and (description_length >= 0.023531) => rating_class=low_rating (422.0/127.0)
+(pages <= 0.023076) and (format_ebook <= 0) and (genre_fiction >= 1) and (description_length >= 0.028019) and (genre_fantasy >= 1) and (genre_romance >= 1) and (title_length <= 0.036) => rating_class=low_rating (165.0/47.0)
+(title_length <= 0.084) and (pages <= 0.023076) and (number_of_genres >= 0.2) and (format_ebook <= 0) and (genre_science_fiction >= 1) and (number_of_awards <= 0) => rating_class=low_rating (706.0/266.0)
+(genre_fiction >= 1) and (title_length <= 0.032) and (genre_fantasy >= 1) and (pages >= 0.01658) and (pages <= 0.025107) => rating_class=low_rating (341.0/141.0)
+(genre_fiction >= 1) and (pages <= 0.026934) and (title_length <= 0.092) and (genre_science_fiction >= 1) and (number_of_awards <= 0) => rating_class=low_rating (377.0/171.0)
+(title_length <= 0.092) and (pages <= 0.020505) and (number_of_genres >= 0.2) and (genre_fantasy <= 0) and (is_english <= 0) and (number_of_genres <= 0.4) => rating_class=low_rating (405.0/151.0)
+(title_length <= 0.08) and (pages <= 0.019963) and (number_of_genres >= 0.1) and (is_english <= 0) and (has_series <= 0) and (format_hardcover <= 0) => rating_class=low_rating (499.0/210.0)
+(genre_fiction >= 1) and (genre_fantasy <= 0) and (has_setting >= 1) and (pages <= 0.021182) and (pages >= 0.006497) and (format_paperback >= 1) => rating_class=low_rating (485.0/201.0)
+(genre_fiction >= 1) and (title_length <= 0.116) and (pages <= 0.022738) and (genre_mystery >= 1) and (pages >= 0.014211) and (genre_romance <= 0) and (description_length >= 0.024785) => rating_class=low_rating (350.0/128.0)
+(genre_fiction >= 1) and (title_length <= 0.04) and (pages <= 0.021791) and (format_paperback >= 1) => rating_class=low_rating (501.0/232.0)
+(genre_fiction >= 1) and (has_series <= 0) and (genre_classics <= 0) and (number_of_genres >= 1) and (pages <= 0.043581) and (pages >= 0.0314) => rating_class=low_rating (675.0/256.0)
+(number_of_genres >= 0.2) and (has_series <= 0) and (title_length <= 0.128) and (genre_nonfiction <= 0) and (genre_romance >= 1) and (genre_fiction <= 0) and (pages <= 0.011775) => rating_class=low_rating (89.0/22.0)
+(title_length <= 0.072) and (pages <= 0.023076) and (format_ebook <= 0) and (genre_romance >= 1) and (format_hardcover >= 1) => rating_class=low_rating (386.0/154.0)
+(pages <= 0.030317) and (number_of_genres >= 0.1) and (has_series <= 0) and (title_length <= 0.072) and (genre_nonfiction <= 0) and (pages >= 0.009068) => rating_class=low_rating (1200.0/584.0)
+(genre_fiction >= 1) and (pages <= 0.028287) and (genre_romance >= 1) and (format_hardcover >= 1) => rating_class=low_rating (537.0/259.0)
+(pages <= 0.0314) and (number_of_genres >= 0.2) and (description_length >= 0.029717) and (genre_historical_fiction >= 1) and (genre_romance >= 1) => rating_class=low_rating (619.0/295.0)
+(number_of_genres >= 0.1) and (format_paperback >= 1) and (genre_fiction >= 1) and (number_of_characters <= 0.007474) and (description_length >= 0.027655) and (genre_fantasy >= 1) and (title_length <= 0.104) and (pages <= 0.022941) => rating_class=low_rating (398.0/176.0)
+(number_of_genres >= 0.1) and (format_ebook <= 0) and (has_series >= 1) and (description_length <= 0.023491) and (number_of_genres <= 0.1) and (pages <= 0.006497) => rating_class=low_rating (57.0/2.0)
+ => rating_class=high_rating (32691.0/10783.0)
+
+Number of Rules : 28
