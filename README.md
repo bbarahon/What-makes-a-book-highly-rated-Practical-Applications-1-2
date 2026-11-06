@@ -10,8 +10,6 @@
 
 The project investigates whether bibliographic metadata can distinguish books rated **4 stars or above** from those rated below 4. It compares model families and feature-selection strategies, with an emphasis on honest evaluation and understanding what the models learn.
 
-[Methodology](docs/methodology.md) · [Data dictionary](docs/data-dictionary.md) · [Weka guide in Spanish](docs/weka-guide.es.md) · [Results](results/README.md)
-
 ## The question
 
 Can genre, publication history, format and other book metadata help predict a book's rating category?
@@ -37,17 +35,6 @@ The following counts describe the corrected local dataset prepared for this proj
 
 The source is a preprocessed *Best Books Ever* dataset. Its exact upstream release, collection date and redistribution terms still need to be documented. Data files are therefore not bundled in this repository. See [data provenance and local setup](data/README.md).
 
-### What was improved
-
-- Restored numeric publication years from the available CSV instead of using the ARFF's precomputed intervals.
-- Recovered the first-publication year and added missingness and date-consistency indicators.
-- Added the gap between edition and first publication when both dates are consistent.
-- Converted `1 page` to 1 and zero-page values to missing data.
-- Removed 71 unrated books and the redundant `has_awards` flag.
-- Retained the existing eight genre indicators and `has_series`; added no text or series-position features.
-
-Some earlier preprocessing cannot be reversed reliably. For example, real 304-page books cannot be distinguished from earlier imputations without the original source. [Read the limitations](docs/methodology.md#limitations).
-
 ## Experimental design
 
 The planned comparison crosses model families with four feature-selection settings:
@@ -65,30 +52,10 @@ A reserved test set is used only after configurations are fixed. Imputation, sca
 
 The full-sample majority proportion is **54.75%**. This is a descriptive reference, not a measured test score: the final ZeroR baseline must be trained and evaluated on the same split as the other models.
 
-## Project status
-
-| Component | Status |
-| --- | --- |
-| Data audit and corrected ARFF | Prepared locally; validation script provided |
-| Feature dictionary and evaluation protocol | Documented |
-| Existing Bayesian-network figure | Available; training provenance not documented |
-| Cross-validated model comparison | Pending |
-| Held-out test metrics and final conclusions | Pending |
-
-No model ranking, accuracy gain or causal conclusion is claimed at this stage.
-
-<details>
-<summary><strong>View the existing Bayesian-network figure</strong></summary>
-
-![Existing Bayesian-network diagram for the Goodreads rating task](figures/goodreads_bayesian_network.svg)
-
-This figure was already present in the repository. Its training configuration, data version and evaluation split have not been recorded here. It is retained as a visual reference, not evidence of validated performance. Directed edges should not be interpreted as causal effects.
-
-</details>
 
 ## Getting started
 
-1. Obtain the corrected ARFF and place it at `data/local/goodreads_weka_preprocessed.arff` as described in [data setup](data/README.md).
+1. Obtain the corrected ARFF and place it at `data/local/goodreads_weka_preprocessed.arff` as described in [data setup](data/).
 2. Validate its schema and basic invariants with Python 3:
 
    ```bash
