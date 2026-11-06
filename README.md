@@ -105,13 +105,9 @@ The validation script uses only Python's standard library. Weka and Java are sep
 
 | Path | Purpose |
 | --- | --- |
-| [`docs/methodology.md`](docs/methodology.md) | Task definition, evaluation design and limitations |
-| [`docs/data-dictionary.md`](docs/data-dictionary.md) | All 33 predictors and the target |
-| [`docs/weka-guide.es.md`](docs/weka-guide.es.md) | Practical instructions in Spanish |
-| [`data/README.md`](data/README.md) | Dataset provenance, fingerprint and acquisition notes |
-| [`scripts/validate_dataset.py`](scripts/validate_dataset.py) | Local ARFF checks |
-| [`results/`](results/README.md) | Reporting conventions and empty metric template |
-| [`figures/`](figures/README.md) | Existing visual material and provenance notes |
+| [`results/`](results/) | Reporting conventions and metrics, as well as more results of the different classifiers |
+| [`results/`](data/) | The preprocessed data, as an .arff file |
+| [`figures/`](figures/) | Existing visual material of the memory |
 
 ## Author and reuse
 
