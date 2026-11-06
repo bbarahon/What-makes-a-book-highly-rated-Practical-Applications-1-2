@@ -1,0 +1,12 @@
+WARNING: core mtj jar files are not available as resources to this classloader (jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a)
+Id3 fold 1 accuracy=60.9375
+Id3 fold 2 accuracy=61.35670731707317
+Id3 fold 3 accuracy=61.28048780487805
+Id3 fold 4 accuracy=62.29039634146341
+Id3 fold 5 accuracy=61.051829268292686
+Id3 fold 6 accuracy=60.766006097560975
+Id3 fold 7 accuracy=61.66158536585366
+Id3 fold 8 accuracy=59.698932926829265
+Id3 fold 9 accuracy=60.58700209643606
+Id3 fold 10 accuracy=60.85382123117972
+Id3 DONE

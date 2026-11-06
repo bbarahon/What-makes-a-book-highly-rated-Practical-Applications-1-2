@@ -1,0 +1,10 @@
+pages: [0.0045000000000000005, 0.014651, 0.0202, 0.0206065, 0.023178, 0.028186, 0.038877999999999996, 0.0567435, 0.09328700000000001]
+genre_fiction: [0.5]
+publication_year: null
+title_length: [0.038, 0.094, 0.122]
+number_of_genres: [0.05, 0.15000000000000002]
+genre_mystery: [0.5]
+has_series: [0.5]
+format_ebook: [0.5]
+has_setting: [0.5]
+genre_nonfiction: [0.5]

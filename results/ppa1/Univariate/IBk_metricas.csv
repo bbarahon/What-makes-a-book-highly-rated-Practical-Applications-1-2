@@ -1,0 +1,2 @@
+model,accuracy,sensitivity,specificity,roc_auc,precision,f1,balanced_accuracy,mcc,kappa,pr_auc,mae,rmse,rae_percent,rrse_percent,correct,incorrect,unclassified,TP,FN,FP,TN,train_seconds,test_seconds
+IBk,0.6313502801,0.7551489807,0.4819829290,0.6718210576,0.6375297890,0.6913725991,0.6185659548,0.2471158070,0.2417374800,0.6915997058,0.4424335981,0.4752545028,89.2687853486,95.4700349601,33132,19346,0,21669,7026,12320,11463,0.2774,271.9851
