@@ -1,0 +1,90 @@
+Options: -C 0.1 -L 0.01 -P 1.0E-12 -N 0 -M -V -1 -W 42 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Full-data training seconds: 23.206006054
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: high_rating, low_rating
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -4.8825 * (normalized) pages
+ +       0.5895 * (normalized) genre_fiction
+ +      -0.0914 * (normalized) publication_year='(-inf-1961.5]'
+ +       0.0947 * (normalized) publication_year='(1961.5-1968.5]'
+ +       0.19   * (normalized) publication_year='(1968.5-1972.5]'
+ +      -0.1059 * (normalized) publication_year='(1972.5-1975.5]'
+ +      -0.2622 * (normalized) publication_year='(1975.5-1978.5]'
+ +      -0.171  * (normalized) publication_year='(1978.5-1980.5]'
+ +      -0.2655 * (normalized) publication_year='(1980.5-1982.5]'
+ +      -0.1329 * (normalized) publication_year='(1982.5-1983.5]'
+ +      -0.1663 * (normalized) publication_year='(1983.5-1984.5]'
+ +      -0.0722 * (normalized) publication_year='(1984.5-1985.5]'
+ +       0.0297 * (normalized) publication_year='(1985.5-1986.5]'
+ +      -0.0747 * (normalized) publication_year='(1986.5-1987.5]'
+ +      -0.1229 * (normalized) publication_year='(1987.5-1988.5]'
+ +       0.0051 * (normalized) publication_year='(1988.5-1989.5]'
+ +      -0.1238 * (normalized) publication_year='(1989.5-1990.5]'
+ +       0.1932 * (normalized) publication_year='(1990.5-1991.5]'
+ +      -0.0952 * (normalized) publication_year='(1991.5-1992.5]'
+ +       0.1315 * (normalized) publication_year='(1992.5-1993.5]'
+ +      -0.0516 * (normalized) publication_year='(1993.5-1994.5]'
+ +       0.2012 * (normalized) publication_year='(1994.5-1995.5]'
+ +       0.1032 * (normalized) publication_year='(1995.5-1996.5]'
+ +       0.1948 * (normalized) publication_year='(1996.5-1997.5]'
+ +       0.168  * (normalized) publication_year='(1997.5-1998.5]'
+ +       0.1708 * (normalized) publication_year='(1998.5-1999.5]'
+ +       0.1107 * (normalized) publication_year='(1999.5-2000.5]'
+ +       0.1781 * (normalized) publication_year='(2000.5-2001.5]'
+ +       0.182  * (normalized) publication_year='(2001.5-2002.5]'
+ +       0.1641 * (normalized) publication_year='(2002.5-2003.5]'
+ +       0.1829 * (normalized) publication_year='(2003.5-2004.5]'
+ +       0.1453 * (normalized) publication_year='(2004.5-2005.5]'
+ +       0.2693 * (normalized) publication_year='(2005.5-2006.5]'
+ +       0.3212 * (normalized) publication_year='(2006.5-2007.5]'
+ +       0.2661 * (normalized) publication_year='(2007.5-2008.5]'
+ +      -0.0417 * (normalized) publication_year='(2008.5-2009.5]'
+ +       0.2956 * (normalized) publication_year='(2009.5-2010.5]'
+ +       0.2653 * (normalized) publication_year='(2010.5-2011.5]'
+ +       0.2632 * (normalized) publication_year='(2011.5-2012.5]'
+ +       0.1707 * (normalized) publication_year='(2012.5-2013.5]'
+ +      -0.0601 * (normalized) publication_year='(2013.5-2014.5]'
+ +      -0.1556 * (normalized) publication_year='(2014.5-2015.5]'
+ +      -0.226  * (normalized) publication_year='(2015.5-2016.5]'
+ +      -0.2752 * (normalized) publication_year='(2016.5-2017.5]'
+ +      -0.3287 * (normalized) publication_year='(2017.5-2018.5]'
+ +      -0.3672 * (normalized) publication_year='(2018.5-2019.5]'
+ +      -0.6455 * (normalized) publication_year='(2019.5-2020.5]'
+ +      -0.4    * (normalized) publication_year='(2020.5-2028]'
+ +      -0.061  * (normalized) publication_year='(2028-inf)'
+ +      -1.7929 * (normalized) title_length
+ +       0.7945 * (normalized) number_of_genres
+ +       0.3456 * (normalized) genre_mystery
+ +      -1.384  * (normalized) has_series
+ +      -0.0273 * (normalized) format_ebook
+ +       0.0868 * (normalized) has_setting
+ +      -0.7982 * (normalized) genre_nonfiction
+ -       0.4764
+
+Number of kernel evaluations: 88665633 (40.706% cached)
+
+Calibration model fit to the output:
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                   Class
+Variable     high_rating
+========================
+pred             -0.7233
+Intercept        -0.0703
+
+
+Odds Ratios...
+                   Class
+Variable     high_rating
+========================
+pred              0.4851
+
+

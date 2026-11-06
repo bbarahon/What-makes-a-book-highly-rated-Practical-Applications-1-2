@@ -1,0 +1,24 @@
+Options: -F 3 -N 2.0 -O 2 -S 42
+Full-data training seconds: 12.959236029
+JRIP rules:
+===========
+
+(genre_fiction >= 1) and (has_series <= 0) and (pages <= 0.029708) and (pages >= 0.007512) and (genre_mystery >= 1) => rating_class=low_rating (2117.0/426.0)
+(genre_fiction >= 1) and (has_series <= 0) and (pages <= 0.02734) and (pages >= 0.007918) => rating_class=low_rating (8139.0/2614.0)
+(genre_fiction >= 1) and (genre_mystery >= 1) and (pages <= 0.022941) and (has_setting >= 1) => rating_class=low_rating (849.0/292.0)
+(genre_fiction >= 1) and (has_series <= 0) and (pages <= 0.031603) and (pages >= 0.006632) and (title_length <= 0.1) and (format_ebook <= 0) => rating_class=low_rating (995.0/357.0)
+(genre_fiction >= 1) and (genre_mystery >= 1) and (pages <= 0.023821) and (has_setting >= 1) => rating_class=low_rating (88.0/36.0)
+(pages <= 0.023347) and (genre_fiction >= 1) and (title_length <= 0.04) and (pages >= 0.00406) => rating_class=low_rating (1950.0/840.0)
+(pages <= 0.019963) and (number_of_genres >= 0.2) and (number_of_genres <= 0.9) and (has_series <= 0) and (title_length <= 0.044) => rating_class=low_rating (346.0/145.0)
+(genre_fiction >= 1) and (pages <= 0.022941) and (pages >= 0.015497) and (format_ebook <= 0) and (title_length <= 0.048) => rating_class=low_rating (413.0/205.0)
+(number_of_genres >= 0.1) and (title_length <= 0.092) and (format_ebook <= 0) and (genre_mystery >= 1) and (pages <= 0.023821) and (pages >= 0.015226) => rating_class=low_rating (628.0/256.0)
+(genre_fiction >= 1) and (pages >= 0.013196) and (pages <= 0.019963) and (has_setting >= 1) and (format_ebook <= 0) => rating_class=low_rating (418.0/185.0)
+(title_length <= 0.072) and (format_ebook <= 0) and (number_of_genres <= 0.8) and (pages >= 0.008865) and (pages <= 0.014279) and (number_of_genres >= 0.4) => rating_class=low_rating (183.0/69.0)
+(genre_fiction >= 1) and (pages <= 0.027001) and (title_length <= 0.032) and (pages >= 0.024091) => rating_class=low_rating (351.0/159.0)
+(title_length <= 0.084) and (format_ebook <= 0) and (number_of_genres >= 0.3) and (pages >= 0.004399) and (pages <= 0.011234) and (genre_fiction >= 1) => rating_class=low_rating (499.0/227.0)
+(title_length <= 0.092) and (pages <= 0.028423) and (format_ebook <= 0) and (genre_nonfiction <= 0) and (has_series <= 0) and (number_of_genres >= 0.6) and (pages >= 0.005617) => rating_class=low_rating (201.0/69.0)
+(pages <= 0.038844) and (number_of_genres >= 0.1) and (title_length <= 0.12) and (has_series <= 0) and (genre_nonfiction <= 0) and (genre_mystery >= 1) => rating_class=low_rating (335.0/116.0)
+(pages <= 0.029505) and (number_of_genres >= 0.1) and (title_length <= 0.092) and (title_length >= 0.06) and (publication_year = '(2011.5-2012.5]') and (format_ebook >= 1) => rating_class=low_rating (215.0/90.0)
+ => rating_class=high_rating (34751.0/12142.0)
+
+Number of Rules : 17

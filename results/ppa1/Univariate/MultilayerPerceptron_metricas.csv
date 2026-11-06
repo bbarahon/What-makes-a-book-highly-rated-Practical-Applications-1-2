@@ -1,0 +1,2 @@
+model,accuracy,sensitivity,specificity,roc_auc,precision,f1,balanced_accuracy,mcc,kappa,pr_auc,mae,rmse,rae_percent,rrse_percent,correct,incorrect,unclassified,TP,FN,FP,TN,train_seconds,test_seconds
+MultilayerPerceptron,0.6134761233,0.6836034152,0.5288651558,0.6516829458,0.6364491743,0.6591840850,0.6062342855,0.2148367721,0.2141067035,0.6732319734,0.4458253389,0.4827567542,89.9531288967,96.9771016010,32194,20284,0,19616,9079,11205,12578,1276.6210,1.5436

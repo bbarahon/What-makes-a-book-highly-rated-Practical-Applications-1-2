@@ -1,0 +1,8 @@
+WARNING: core mtj jar files are not available as resources to this classloader (jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a)
+MultilayerPerceptron fold 1 accuracy=61.69969512195122
+MultilayerPerceptron fold 2 accuracy=56.65015243902439
+MultilayerPerceptron fold 3 accuracy=62.271341463414636
+MultilayerPerceptron fold 4 accuracy=63.109756097560975
+MultilayerPerceptron fold 5 accuracy=62.46189024390244
+MultilayerPerceptron fold 6 accuracy=60.8422256097561
+MultilayerPerceptron fold 7 accuracy=60.384908536585364

@@ -1,0 +1,2 @@
+model,accuracy,sensitivity,specificity,roc_auc,precision,f1,balanced_accuracy,mcc,kappa,pr_auc,mae,rmse,rae_percent,rrse_percent,correct,incorrect,unclassified,TP,FN,FP,TN,train_seconds,test_seconds
+J48,0.6362475704,0.7315560202,0.5212546777,0.6639228133,0.6483414664,0.6874396214,0.6264053490,0.2588861649,0.2562065395,0.6629189290,0.4330139331,0.4879071097,87.3682017077,98.0117148797,33389,19089,0,20992,7703,11386,12397,20.6958,0.3326

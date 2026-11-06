@@ -1,0 +1,2534 @@
+Options: -C 0.25 -M 2
+Full-data training seconds: 2.3034687
+J48 pruned tree
+------------------
+
+pages <= 0.038844
+|   number_of_genres <= 0: high_rating (4462.0/1142.0)
+|   number_of_genres > 0
+|   |   genre_fiction <= 0
+|   |   |   publication_year = '(-inf-1961.5]'
+|   |   |   |   has_setting <= 0
+|   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   pages <= 0.018475
+|   |   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   |   pages <= 0.015429: high_rating (16.0/7.0)
+|   |   |   |   |   |   |   |   pages > 0.015429: low_rating (4.0)
+|   |   |   |   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   |   |   |   title_length <= 0.128
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: low_rating (6.0/1.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   pages <= 0.013399: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.013399: high_rating (2.0)
+|   |   |   |   |   |   |   |   title_length > 0.128: high_rating (4.0)
+|   |   |   |   |   |   pages > 0.018475: high_rating (15.0/1.0)
+|   |   |   |   |   has_series > 0: high_rating (4.0)
+|   |   |   |   has_setting > 0: low_rating (4.0/1.0)
+|   |   |   publication_year = '(1961.5-1968.5]'
+|   |   |   |   genre_nonfiction <= 0: high_rating (16.0/4.0)
+|   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   number_of_genres <= 0.2: low_rating (4.0)
+|   |   |   |   |   number_of_genres > 0.2: high_rating (44.0/17.0)
+|   |   |   publication_year = '(1968.5-1972.5]'
+|   |   |   |   has_series <= 0
+|   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   pages <= 0.006632: high_rating (4.0)
+|   |   |   |   |   |   pages > 0.006632: low_rating (19.0/6.0)
+|   |   |   |   |   genre_nonfiction > 0: high_rating (55.0/19.0)
+|   |   |   |   has_series > 0: high_rating (8.0)
+|   |   |   publication_year = '(1972.5-1975.5]': high_rating (69.0/24.0)
+|   |   |   publication_year = '(1975.5-1978.5]'
+|   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   number_of_genres <= 0.3
+|   |   |   |   |   |   number_of_genres <= 0.1
+|   |   |   |   |   |   |   title_length <= 0.116: low_rating (9.0/3.0)
+|   |   |   |   |   |   |   title_length > 0.116: high_rating (8.0/1.0)
+|   |   |   |   |   |   number_of_genres > 0.1: low_rating (2.0)
+|   |   |   |   |   number_of_genres > 0.3: high_rating (6.0)
+|   |   |   |   genre_nonfiction > 0: high_rating (52.0/10.0)
+|   |   |   publication_year = '(1978.5-1980.5]'
+|   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   number_of_genres <= 0.2
+|   |   |   |   |   |   |   number_of_genres <= 0.1
+|   |   |   |   |   |   |   |   title_length <= 0.048: high_rating (2.0)
+|   |   |   |   |   |   |   |   title_length > 0.048
+|   |   |   |   |   |   |   |   |   title_length <= 0.052: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.052: high_rating (6.0/2.0)
+|   |   |   |   |   |   |   number_of_genres > 0.1: low_rating (4.0)
+|   |   |   |   |   |   number_of_genres > 0.2: high_rating (3.0)
+|   |   |   |   |   genre_mystery > 0: low_rating (2.0)
+|   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   number_of_genres <= 0.6: low_rating (10.0/3.0)
+|   |   |   |   |   number_of_genres > 0.6: high_rating (24.0/6.0)
+|   |   |   publication_year = '(1980.5-1982.5]': high_rating (67.0/20.0)
+|   |   |   publication_year = '(1982.5-1983.5]'
+|   |   |   |   number_of_genres <= 0.2: low_rating (8.0/2.0)
+|   |   |   |   number_of_genres > 0.2: high_rating (40.0/10.0)
+|   |   |   publication_year = '(1983.5-1984.5]'
+|   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   number_of_genres <= 0.3
+|   |   |   |   |   |   pages <= 0.012181: high_rating (4.0)
+|   |   |   |   |   |   pages > 0.012181
+|   |   |   |   |   |   |   pages <= 0.0224: low_rating (2.0)
+|   |   |   |   |   |   |   pages > 0.0224: high_rating (2.0)
+|   |   |   |   |   number_of_genres > 0.3: low_rating (2.0)
+|   |   |   |   genre_nonfiction > 0: high_rating (28.0/9.0)
+|   |   |   publication_year = '(1984.5-1985.5]'
+|   |   |   |   has_setting <= 0
+|   |   |   |   |   pages <= 0.021858
+|   |   |   |   |   |   title_length <= 0.052: low_rating (6.0/1.0)
+|   |   |   |   |   |   title_length > 0.052: high_rating (22.0/5.0)
+|   |   |   |   |   pages > 0.021858: high_rating (11.0)
+|   |   |   |   has_setting > 0: low_rating (2.0)
+|   |   |   publication_year = '(1985.5-1986.5]'
+|   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   pages <= 0.019828
+|   |   |   |   |   |   title_length <= 0.228: low_rating (10.0/2.0)
+|   |   |   |   |   |   title_length > 0.228: high_rating (2.0)
+|   |   |   |   |   pages > 0.019828: high_rating (5.0)
+|   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   genre_mystery <= 0: high_rating (38.0/8.0)
+|   |   |   |   |   genre_mystery > 0: low_rating (2.0)
+|   |   |   publication_year = '(1986.5-1987.5]'
+|   |   |   |   pages <= 0.015226: low_rating (25.0/8.0)
+|   |   |   |   pages > 0.015226: high_rating (27.0/4.0)
+|   |   |   publication_year = '(1987.5-1988.5]': high_rating (75.0/20.0)
+|   |   |   publication_year = '(1988.5-1989.5]'
+|   |   |   |   has_setting <= 0: high_rating (76.0/23.0)
+|   |   |   |   has_setting > 0
+|   |   |   |   |   pages <= 0.01076: low_rating (3.0)
+|   |   |   |   |   pages > 0.01076: high_rating (5.0/1.0)
+|   |   |   publication_year = '(1989.5-1990.5]': high_rating (101.0/32.0)
+|   |   |   publication_year = '(1990.5-1991.5]'
+|   |   |   |   has_series <= 0
+|   |   |   |   |   title_length <= 0.124: high_rating (43.0/8.0)
+|   |   |   |   |   title_length > 0.124
+|   |   |   |   |   |   number_of_genres <= 0.5
+|   |   |   |   |   |   |   title_length <= 0.252: low_rating (7.0)
+|   |   |   |   |   |   |   title_length > 0.252: high_rating (3.0/1.0)
+|   |   |   |   |   |   number_of_genres > 0.5: high_rating (33.0/13.0)
+|   |   |   |   has_series > 0
+|   |   |   |   |   number_of_genres <= 0.7: low_rating (10.0)
+|   |   |   |   |   number_of_genres > 0.7: high_rating (9.0/2.0)
+|   |   |   publication_year = '(1991.5-1992.5]'
+|   |   |   |   number_of_genres <= 0.2: low_rating (23.0/6.0)
+|   |   |   |   number_of_genres > 0.2: high_rating (90.0/21.0)
+|   |   |   publication_year = '(1992.5-1993.5]'
+|   |   |   |   pages <= 0.005617
+|   |   |   |   |   pages <= 0.001963: high_rating (2.0)
+|   |   |   |   |   pages > 0.001963: low_rating (14.0)
+|   |   |   |   pages > 0.005617
+|   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   number_of_genres <= 0.3: high_rating (10.0/1.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.3: low_rating (5.0/1.0)
+|   |   |   |   |   |   |   has_setting > 0: low_rating (2.0)
+|   |   |   |   |   |   genre_nonfiction > 0: high_rating (85.0/24.0)
+|   |   |   |   |   has_series > 0
+|   |   |   |   |   |   title_length <= 0.112: high_rating (6.0)
+|   |   |   |   |   |   title_length > 0.112
+|   |   |   |   |   |   |   genre_mystery <= 0: low_rating (6.0)
+|   |   |   |   |   |   |   genre_mystery > 0: high_rating (2.0)
+|   |   |   publication_year = '(1993.5-1994.5]'
+|   |   |   |   has_series <= 0: high_rating (129.0/43.0)
+|   |   |   |   has_series > 0
+|   |   |   |   |   number_of_genres <= 0.4: low_rating (16.0/1.0)
+|   |   |   |   |   number_of_genres > 0.4: high_rating (11.0/4.0)
+|   |   |   publication_year = '(1994.5-1995.5]'
+|   |   |   |   number_of_genres <= 0.2: low_rating (44.0/14.0)
+|   |   |   |   number_of_genres > 0.2
+|   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   has_setting <= 0: high_rating (108.0/41.0)
+|   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   pages <= 0.014347: low_rating (4.0)
+|   |   |   |   |   |   |   pages > 0.014347: high_rating (7.0)
+|   |   |   |   |   has_series > 0
+|   |   |   |   |   |   number_of_genres <= 0.5: low_rating (4.0/1.0)
+|   |   |   |   |   |   number_of_genres > 0.5: high_rating (14.0/2.0)
+|   |   |   publication_year = '(1995.5-1996.5]'
+|   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   number_of_genres <= 0.5
+|   |   |   |   |   |   |   title_length <= 0.056: high_rating (4.0)
+|   |   |   |   |   |   |   title_length > 0.056: low_rating (10.0/4.0)
+|   |   |   |   |   |   number_of_genres > 0.5: low_rating (3.0)
+|   |   |   |   |   has_series > 0: low_rating (23.0/11.0)
+|   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   number_of_genres <= 0.6
+|   |   |   |   |   |   |   number_of_genres <= 0.2: high_rating (4.0)
+|   |   |   |   |   |   |   number_of_genres > 0.2: low_rating (19.0/8.0)
+|   |   |   |   |   |   number_of_genres > 0.6: high_rating (83.0/20.0)
+|   |   |   |   |   has_series > 0
+|   |   |   |   |   |   number_of_genres <= 0.8: high_rating (2.0)
+|   |   |   |   |   |   number_of_genres > 0.8
+|   |   |   |   |   |   |   title_length <= 0.096: low_rating (4.0)
+|   |   |   |   |   |   |   title_length > 0.096
+|   |   |   |   |   |   |   |   title_length <= 0.144: high_rating (2.0)
+|   |   |   |   |   |   |   |   title_length > 0.144: low_rating (3.0/1.0)
+|   |   |   publication_year = '(1996.5-1997.5]'
+|   |   |   |   has_series <= 0: high_rating (154.0/59.0)
+|   |   |   |   has_series > 0
+|   |   |   |   |   number_of_genres <= 0.3: low_rating (11.0/1.0)
+|   |   |   |   |   number_of_genres > 0.3
+|   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   title_length <= 0.08: low_rating (5.0/1.0)
+|   |   |   |   |   |   |   title_length > 0.08: high_rating (4.0)
+|   |   |   |   |   |   genre_nonfiction > 0: high_rating (20.0/7.0)
+|   |   |   publication_year = '(1997.5-1998.5]'
+|   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   title_length <= 0.16
+|   |   |   |   |   |   |   has_setting <= 0: low_rating (30.0/14.0)
+|   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   pages <= 0.023347: high_rating (2.0)
+|   |   |   |   |   |   |   |   pages > 0.023347: low_rating (2.0)
+|   |   |   |   |   |   title_length > 0.16: high_rating (7.0)
+|   |   |   |   |   has_series > 0
+|   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   pages <= 0.01164: low_rating (10.0/2.0)
+|   |   |   |   |   |   |   pages > 0.01164
+|   |   |   |   |   |   |   |   number_of_genres <= 0.2: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.2: high_rating (6.0)
+|   |   |   |   |   |   has_setting > 0: low_rating (2.0)
+|   |   |   |   genre_nonfiction > 0: high_rating (161.0/56.0)
+|   |   |   publication_year = '(1998.5-1999.5]'
+|   |   |   |   number_of_genres <= 0.8
+|   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   title_length <= 0.056: low_rating (18.0/4.0)
+|   |   |   |   |   |   title_length > 0.056
+|   |   |   |   |   |   |   number_of_genres <= 0.6
+|   |   |   |   |   |   |   |   title_length <= 0.332
+|   |   |   |   |   |   |   |   |   title_length <= 0.16
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.2
+|   |   |   |   |   |   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.136: low_rating (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.136: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   genre_nonfiction > 0: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.2
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.022129: high_rating (21.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.022129: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.16: high_rating (12.0)
+|   |   |   |   |   |   |   |   title_length > 0.332: low_rating (3.0)
+|   |   |   |   |   |   |   number_of_genres > 0.6: low_rating (12.0/4.0)
+|   |   |   |   |   has_series > 0
+|   |   |   |   |   |   title_length <= 0.028: high_rating (3.0)
+|   |   |   |   |   |   title_length > 0.028
+|   |   |   |   |   |   |   pages <= 0.00582: high_rating (2.0)
+|   |   |   |   |   |   |   pages > 0.00582: low_rating (11.0)
+|   |   |   |   number_of_genres > 0.8: high_rating (173.0/57.0)
+|   |   |   publication_year = '(1999.5-2000.5]'
+|   |   |   |   title_length <= 0.048: low_rating (32.0/11.0)
+|   |   |   |   title_length > 0.048: high_rating (268.0/77.0)
+|   |   |   publication_year = '(2000.5-2001.5]': high_rating (320.0/111.0)
+|   |   |   publication_year = '(2001.5-2002.5]'
+|   |   |   |   pages <= 0.026392
+|   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   title_length <= 0.324
+|   |   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   |   number_of_genres <= 0.1
+|   |   |   |   |   |   |   |   |   title_length <= 0.272: high_rating (15.0/2.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.272: low_rating (2.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.1
+|   |   |   |   |   |   |   |   |   title_length <= 0.048: low_rating (6.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.048
+|   |   |   |   |   |   |   |   |   |   pages <= 0.018948: low_rating (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.018948: high_rating (3.0)
+|   |   |   |   |   |   |   genre_nonfiction > 0: high_rating (183.0/74.0)
+|   |   |   |   |   |   title_length > 0.324: low_rating (19.0/4.0)
+|   |   |   |   |   has_series > 0
+|   |   |   |   |   |   format_ebook <= 0: high_rating (33.0/15.0)
+|   |   |   |   |   |   format_ebook > 0: low_rating (3.0)
+|   |   |   |   pages > 0.026392
+|   |   |   |   |   title_length <= 0.152
+|   |   |   |   |   |   pages <= 0.035122: high_rating (19.0/3.0)
+|   |   |   |   |   |   pages > 0.035122: low_rating (5.0/1.0)
+|   |   |   |   |   title_length > 0.152: high_rating (27.0/1.0)
+|   |   |   publication_year = '(2002.5-2003.5]'
+|   |   |   |   has_series <= 0: high_rating (331.0/119.0)
+|   |   |   |   has_series > 0
+|   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   has_setting <= 0: high_rating (32.0/12.0)
+|   |   |   |   |   |   has_setting > 0: low_rating (4.0/1.0)
+|   |   |   |   |   genre_mystery > 0: low_rating (6.0/1.0)
+|   |   |   publication_year = '(2003.5-2004.5]': high_rating (404.0/159.0)
+|   |   |   publication_year = '(2004.5-2005.5]'
+|   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   pages <= 0.02558
+|   |   |   |   |   |   |   has_series <= 0: low_rating (53.0/22.0)
+|   |   |   |   |   |   |   has_series > 0
+|   |   |   |   |   |   |   |   number_of_genres <= 0.3: high_rating (6.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.3
+|   |   |   |   |   |   |   |   |   pages <= 0.014279
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.5: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.5: high_rating (16.0/3.0)
+|   |   |   |   |   |   |   |   |   pages > 0.014279: low_rating (11.0/2.0)
+|   |   |   |   |   |   pages > 0.02558: high_rating (11.0)
+|   |   |   |   |   has_setting > 0: low_rating (14.0/2.0)
+|   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   pages <= 0.014685
+|   |   |   |   |   |   has_series <= 0: high_rating (84.0/20.0)
+|   |   |   |   |   |   has_series > 0
+|   |   |   |   |   |   |   number_of_genres <= 0.9: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   number_of_genres > 0.9: low_rating (6.0/1.0)
+|   |   |   |   |   pages > 0.014685
+|   |   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   |   has_setting <= 0: high_rating (185.0/90.0)
+|   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   pages <= 0.018678: low_rating (4.0)
+|   |   |   |   |   |   |   |   pages > 0.018678: high_rating (28.0/12.0)
+|   |   |   |   |   |   has_series > 0
+|   |   |   |   |   |   |   title_length <= 0.04: low_rating (3.0)
+|   |   |   |   |   |   |   title_length > 0.04
+|   |   |   |   |   |   |   |   pages <= 0.016309: low_rating (2.0)
+|   |   |   |   |   |   |   |   pages > 0.016309: high_rating (16.0/2.0)
+|   |   |   publication_year = '(2005.5-2006.5]'
+|   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   title_length <= 0.08
+|   |   |   |   |   |   |   pages <= 0.01076: high_rating (11.0/3.0)
+|   |   |   |   |   |   |   pages > 0.01076
+|   |   |   |   |   |   |   |   pages <= 0.027069: low_rating (29.0)
+|   |   |   |   |   |   |   |   pages > 0.027069
+|   |   |   |   |   |   |   |   |   pages <= 0.030994: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.030994: low_rating (2.0)
+|   |   |   |   |   |   title_length > 0.08: high_rating (23.0/9.0)
+|   |   |   |   |   has_series > 0
+|   |   |   |   |   |   title_length <= 0.036
+|   |   |   |   |   |   |   has_setting <= 0: low_rating (5.0)
+|   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   number_of_genres <= 0.7: high_rating (2.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.7: low_rating (3.0)
+|   |   |   |   |   |   title_length > 0.036
+|   |   |   |   |   |   |   number_of_genres <= 0.6
+|   |   |   |   |   |   |   |   pages <= 0.011369: high_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   pages > 0.011369
+|   |   |   |   |   |   |   |   |   pages <= 0.024565: low_rating (12.0/2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.024565: high_rating (3.0)
+|   |   |   |   |   |   |   number_of_genres > 0.6: high_rating (40.0/10.0)
+|   |   |   |   genre_nonfiction > 0: high_rating (460.0/197.0)
+|   |   |   publication_year = '(2006.5-2007.5]'
+|   |   |   |   has_series <= 0
+|   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   number_of_genres <= 0.1: high_rating (30.0/12.0)
+|   |   |   |   |   |   number_of_genres > 0.1: low_rating (58.0/17.0)
+|   |   |   |   |   genre_nonfiction > 0: high_rating (367.0/177.0)
+|   |   |   |   has_series > 0
+|   |   |   |   |   format_ebook <= 0: high_rating (104.0/35.0)
+|   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   pages <= 0.014956: low_rating (4.0)
+|   |   |   |   |   |   pages > 0.014956: high_rating (7.0/1.0)
+|   |   |   publication_year = '(2007.5-2008.5]'
+|   |   |   |   has_series <= 0
+|   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   title_length <= 0.12
+|   |   |   |   |   |   |   |   number_of_genres <= 0.3: low_rating (48.0/16.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.3
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.5: high_rating (6.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.5: low_rating (13.0/1.0)
+|   |   |   |   |   |   |   title_length > 0.12: high_rating (30.0/8.0)
+|   |   |   |   |   |   genre_nonfiction > 0: high_rating (259.0/119.0)
+|   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   title_length <= 0.084
+|   |   |   |   |   |   |   pages <= 0.020031: low_rating (13.0/2.0)
+|   |   |   |   |   |   |   pages > 0.020031: high_rating (5.0)
+|   |   |   |   |   |   title_length > 0.084: low_rating (32.0/8.0)
+|   |   |   |   has_series > 0
+|   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   number_of_genres <= 0.4: low_rating (28.0/13.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.4: high_rating (68.0/22.0)
+|   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.052: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.052: high_rating (3.0)
+|   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   pages <= 0.017933: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.017933: high_rating (5.0)
+|   |   |   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   |   |   title_length <= 0.06: high_rating (4.0)
+|   |   |   |   |   |   |   title_length > 0.06: low_rating (20.0/8.0)
+|   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   title_length <= 0.064
+|   |   |   |   |   |   |   title_length <= 0.048: high_rating (5.0/1.0)
+|   |   |   |   |   |   |   title_length > 0.048: low_rating (3.0)
+|   |   |   |   |   |   title_length > 0.064: high_rating (6.0)
+|   |   |   publication_year = '(2008.5-2009.5]'
+|   |   |   |   pages <= 0.03052
+|   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.08: low_rating (146.0/69.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.08
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.4: high_rating (113.0/36.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.4: low_rating (11.0/4.0)
+|   |   |   |   |   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.304: high_rating (161.0/78.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.304: low_rating (21.0/4.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9: high_rating (215.0/85.0)
+|   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   title_length <= 0.264
+|   |   |   |   |   |   |   |   |   title_length <= 0.136
+|   |   |   |   |   |   |   |   |   |   pages <= 0.020166
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.000609: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.000609
+|   |   |   |   |   |   |   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.048
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.007241: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.007241: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.048: high_rating (15.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.008865: high_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.008865: low_rating (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   genre_nonfiction > 0: high_rating (10.0/2.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.020166
+|   |   |   |   |   |   |   |   |   |   |   genre_nonfiction <= 0: low_rating (19.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.4: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.4
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.12: high_rating (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.12: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.136: high_rating (18.0/2.0)
+|   |   |   |   |   |   |   |   title_length > 0.264: low_rating (14.0/2.0)
+|   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   pages <= 0.00988: low_rating (7.0)
+|   |   |   |   |   |   |   pages > 0.00988
+|   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.088: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.088
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.017933: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.017933: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.5: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.4: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.4
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.088
+|   |   |   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.019016: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.019016: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.9: low_rating (18.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.088
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.027137: high_rating (20.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.027137: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.136: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.136: low_rating (3.0)
+|   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   pages <= 0.022332: low_rating (7.0/2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.022332: high_rating (3.0/1.0)
+|   |   |   |   |   has_series > 0
+|   |   |   |   |   |   title_length <= 0.056
+|   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   |   genre_nonfiction <= 0: high_rating (104.0/39.0)
+|   |   |   |   |   |   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.8
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.010828: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.010828: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.8: low_rating (7.0/2.0)
+|   |   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.8: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.8: low_rating (8.0/1.0)
+|   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   pages <= 0.016512: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.016512: low_rating (17.0/5.0)
+|   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.7: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.7
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.04: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.04: high_rating (4.0)
+|   |   |   |   |   |   title_length > 0.056
+|   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.1
+|   |   |   |   |   |   |   |   |   |   pages <= 0.01861: low_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.01861: high_rating (8.0/2.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.1: high_rating (130.0/31.0)
+|   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.156
+|   |   |   |   |   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.4
+|   |   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.2
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.068: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.068: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.2: high_rating (7.0)
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.4
+|   |   |   |   |   |   |   |   |   |   |   |   genre_mystery <= 0: low_rating (15.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.1: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.1: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   genre_nonfiction > 0: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.156: high_rating (6.0)
+|   |   |   |   |   |   |   has_setting > 0: high_rating (33.0/6.0)
+|   |   |   |   pages > 0.03052
+|   |   |   |   |   number_of_genres <= 0.1
+|   |   |   |   |   |   pages <= 0.035731: low_rating (4.0)
+|   |   |   |   |   |   pages > 0.035731: high_rating (2.0)
+|   |   |   |   |   number_of_genres > 0.1
+|   |   |   |   |   |   title_length <= 0.3: high_rating (59.0/6.0)
+|   |   |   |   |   |   title_length > 0.3: low_rating (2.0)
+|   |   |   publication_year = '(2009.5-2010.5]'
+|   |   |   |   title_length <= 0.04
+|   |   |   |   |   has_series <= 0: low_rating (53.0/13.0)
+|   |   |   |   |   has_series > 0
+|   |   |   |   |   |   pages <= 0.033227
+|   |   |   |   |   |   |   number_of_genres <= 0.2: low_rating (6.0)
+|   |   |   |   |   |   |   number_of_genres > 0.2
+|   |   |   |   |   |   |   |   number_of_genres <= 0.6: high_rating (9.0/2.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.6
+|   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.02: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.02: low_rating (20.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.024633: low_rating (9.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.024633: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.023821: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.023821: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0: low_rating (12.0/1.0)
+|   |   |   |   |   |   pages > 0.033227: high_rating (5.0)
+|   |   |   |   title_length > 0.04
+|   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   format_ebook <= 0: low_rating (97.0/45.0)
+|   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.06
+|   |   |   |   |   |   |   |   |   |   pages <= 0.000812: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.000812: low_rating (6.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.06: high_rating (12.0/2.0)
+|   |   |   |   |   |   |   number_of_genres > 0.9: low_rating (19.0/1.0)
+|   |   |   |   |   |   genre_nonfiction > 0: high_rating (284.0/124.0)
+|   |   |   |   |   has_series > 0
+|   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   genre_mystery <= 0: high_rating (166.0/48.0)
+|   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.076
+|   |   |   |   |   |   |   |   |   |   pages <= 0.013061: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.013061: low_rating (7.0/2.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.076: high_rating (3.0)
+|   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   pages <= 0.019828: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.019828: low_rating (5.0/1.0)
+|   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   pages <= 0.022197
+|   |   |   |   |   |   |   |   number_of_genres <= 0.5: high_rating (2.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.5
+|   |   |   |   |   |   |   |   |   title_length <= 0.056
+|   |   |   |   |   |   |   |   |   |   pages <= 0.008797: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.008797: high_rating (6.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.056
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.156: low_rating (16.0/1.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.156: high_rating (2.0)
+|   |   |   |   |   |   |   pages > 0.022197: high_rating (8.0)
+|   |   |   publication_year = '(2010.5-2011.5]'
+|   |   |   |   has_series <= 0
+|   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   number_of_genres <= 0.4: high_rating (89.0/37.0)
+|   |   |   |   |   |   |   number_of_genres > 0.4: low_rating (35.0/10.0)
+|   |   |   |   |   |   genre_nonfiction > 0: high_rating (280.0/140.0)
+|   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   number_of_genres <= 0.7
+|   |   |   |   |   |   |   |   number_of_genres <= 0.3
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.1
+|   |   |   |   |   |   |   |   |   |   pages <= 0.01976: high_rating (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.01976: low_rating (10.0/3.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.1
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.12: low_rating (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.12: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.3: high_rating (7.0)
+|   |   |   |   |   |   |   number_of_genres > 0.7: low_rating (19.0/3.0)
+|   |   |   |   |   |   genre_nonfiction > 0: low_rating (26.0/12.0)
+|   |   |   |   has_series > 0
+|   |   |   |   |   title_length <= 0.076
+|   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   genre_mystery <= 0: low_rating (144.0/71.0)
+|   |   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.036: high_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.036
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.8: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.8
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.018001: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.018001: low_rating (8.0)
+|   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   pages <= 0.018678: low_rating (9.0/1.0)
+|   |   |   |   |   |   |   |   pages > 0.018678
+|   |   |   |   |   |   |   |   |   title_length <= 0.032: low_rating (6.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.032: high_rating (41.0/12.0)
+|   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   title_length <= 0.016: high_rating (8.0)
+|   |   |   |   |   |   |   title_length > 0.016
+|   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.01191
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.007376
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.003045: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.003045: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.007376: high_rating (14.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.01191: low_rating (65.0/31.0)
+|   |   |   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.06: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.06: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   pages <= 0.029235
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.024: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.024: low_rating (21.0/6.0)
+|   |   |   |   |   |   |   |   |   pages > 0.029235: high_rating (5.0)
+|   |   |   |   |   title_length > 0.076: high_rating (100.0/27.0)
+|   |   |   publication_year = '(2011.5-2012.5]'
+|   |   |   |   has_series <= 0
+|   |   |   |   |   title_length <= 0.192
+|   |   |   |   |   |   number_of_genres <= 0.2
+|   |   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   |   title_length <= 0.1
+|   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.008594: high_rating (10.0/2.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.008594
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.020234: low_rating (23.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.020234: high_rating (20.0/8.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0: low_rating (25.0/8.0)
+|   |   |   |   |   |   |   |   title_length > 0.1
+|   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.013467: low_rating (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.013467: high_rating (9.0/2.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0: high_rating (12.0)
+|   |   |   |   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   pages <= 0.009271: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   pages > 0.009271
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.1
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.018881: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.018881: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.1: low_rating (4.0)
+|   |   |   |   |   |   |   |   format_ebook > 0: low_rating (3.0/1.0)
+|   |   |   |   |   |   number_of_genres > 0.2: low_rating (239.0/87.0)
+|   |   |   |   |   title_length > 0.192
+|   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   pages <= 0.013264: low_rating (10.0/2.0)
+|   |   |   |   |   |   |   pages > 0.013264
+|   |   |   |   |   |   |   |   number_of_genres <= 0.1: high_rating (9.0/1.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.1
+|   |   |   |   |   |   |   |   |   pages <= 0.018001: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   pages > 0.018001: low_rating (4.0/1.0)
+|   |   |   |   |   |   genre_nonfiction > 0: high_rating (126.0/48.0)
+|   |   |   |   has_series > 0
+|   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   genre_mystery <= 0: high_rating (258.0/93.0)
+|   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   number_of_genres <= 0.9: low_rating (7.0/2.0)
+|   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   pages <= 0.018948: low_rating (5.0)
+|   |   |   |   |   |   |   |   pages > 0.018948: high_rating (17.0/6.0)
+|   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   title_length <= 0.024: high_rating (32.0/8.0)
+|   |   |   |   |   |   |   |   title_length > 0.024
+|   |   |   |   |   |   |   |   |   pages <= 0.010963: low_rating (45.0/12.0)
+|   |   |   |   |   |   |   |   |   pages > 0.010963: high_rating (148.0/66.0)
+|   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   title_length <= 0.028: low_rating (4.0)
+|   |   |   |   |   |   |   |   title_length > 0.028: high_rating (14.0/4.0)
+|   |   |   |   |   |   has_setting > 0: high_rating (58.0/20.0)
+|   |   |   publication_year = '(2012.5-2013.5]'
+|   |   |   |   has_setting <= 0
+|   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   number_of_genres <= 0.2: high_rating (158.0/56.0)
+|   |   |   |   |   |   number_of_genres > 0.2
+|   |   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.16: low_rating (45.0/14.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.16: high_rating (4.0)
+|   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   pages <= 0.018407: low_rating (36.0/7.0)
+|   |   |   |   |   |   |   |   |   pages > 0.018407: high_rating (27.0/9.0)
+|   |   |   |   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   |   |   |   format_ebook <= 0: high_rating (171.0/79.0)
+|   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.112: high_rating (15.0/4.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.112: low_rating (20.0/6.0)
+|   |   |   |   |   has_series > 0
+|   |   |   |   |   |   genre_mystery <= 0: high_rating (569.0/205.0)
+|   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   number_of_genres <= 0.2: low_rating (3.0)
+|   |   |   |   |   |   |   number_of_genres > 0.2
+|   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: high_rating (6.0/1.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9: low_rating (9.0/3.0)
+|   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   pages <= 0.014008: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   pages > 0.014008: high_rating (24.0/7.0)
+|   |   |   |   has_setting > 0
+|   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   title_length <= 0.08
+|   |   |   |   |   |   |   format_ebook <= 0: low_rating (8.0/1.0)
+|   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   number_of_genres <= 0.8: low_rating (3.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.8: high_rating (6.0/1.0)
+|   |   |   |   |   |   title_length > 0.08: high_rating (11.0)
+|   |   |   |   |   has_series > 0: high_rating (116.0/28.0)
+|   |   |   publication_year = '(2013.5-2014.5]'
+|   |   |   |   has_series <= 0
+|   |   |   |   |   title_length <= 0.064
+|   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   number_of_genres <= 0.1: high_rating (21.0/6.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.1
+|   |   |   |   |   |   |   |   |   pages <= 0.016309
+|   |   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.007647: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.007647: low_rating (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   format_ebook > 0: low_rating (13.0/1.0)
+|   |   |   |   |   |   |   |   |   pages > 0.016309: high_rating (57.0/26.0)
+|   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   pages <= 0.025174: low_rating (12.0/3.0)
+|   |   |   |   |   |   |   |   pages > 0.025174: high_rating (3.0)
+|   |   |   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   title_length <= 0.028
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.6: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.6: high_rating (7.0/1.0)
+|   |   |   |   |   |   |   |   title_length > 0.028: low_rating (29.0/7.0)
+|   |   |   |   |   |   |   format_ebook > 0: high_rating (2.0)
+|   |   |   |   |   title_length > 0.064
+|   |   |   |   |   |   format_ebook <= 0: high_rating (228.0/76.0)
+|   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   genre_nonfiction <= 0: high_rating (72.0/25.0)
+|   |   |   |   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   |   |   |   pages <= 0.009407
+|   |   |   |   |   |   |   |   |   pages <= 0.006158: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   pages > 0.006158: low_rating (9.0)
+|   |   |   |   |   |   |   |   pages > 0.009407
+|   |   |   |   |   |   |   |   |   pages <= 0.015768: high_rating (9.0)
+|   |   |   |   |   |   |   |   |   pages > 0.015768
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.308: low_rating (15.0/6.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.308: high_rating (4.0)
+|   |   |   |   has_series > 0: high_rating (680.0/195.0)
+|   |   |   publication_year = '(2014.5-2015.5]'
+|   |   |   |   pages <= 0.019557
+|   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   title_length <= 0.056
+|   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.013467
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.008797: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.008797: high_rating (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.013467: low_rating (7.0)
+|   |   |   |   |   |   |   |   |   has_series > 0: low_rating (19.0/8.0)
+|   |   |   |   |   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   |   |   |   |   pages <= 0.007173: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.007173: low_rating (13.0/2.0)
+|   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.1: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.1
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.011437
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.044: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.044: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.011437: low_rating (8.0)
+|   |   |   |   |   |   |   |   |   genre_nonfiction > 0: high_rating (2.0)
+|   |   |   |   |   |   |   |   has_series > 0
+|   |   |   |   |   |   |   |   |   pages <= 0.005888: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   pages > 0.005888: high_rating (56.0/19.0)
+|   |   |   |   |   |   title_length > 0.056: high_rating (207.0/71.0)
+|   |   |   |   |   has_setting > 0: high_rating (32.0/5.0)
+|   |   |   |   pages > 0.019557
+|   |   |   |   |   genre_mystery <= 0: high_rating (358.0/76.0)
+|   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   |   pages <= 0.024159: high_rating (2.0)
+|   |   |   |   |   |   |   pages > 0.024159: low_rating (3.0)
+|   |   |   |   |   |   has_series > 0
+|   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   title_length <= 0.06: high_rating (11.0/2.0)
+|   |   |   |   |   |   |   |   title_length > 0.06: low_rating (5.0/1.0)
+|   |   |   |   |   |   |   has_setting > 0: high_rating (2.0/1.0)
+|   |   |   publication_year = '(2015.5-2016.5]'
+|   |   |   |   pages <= 0.006497: low_rating (29.0/7.0)
+|   |   |   |   pages > 0.006497
+|   |   |   |   |   has_setting <= 0: high_rating (413.0/110.0)
+|   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   has_series <= 0
+|   |   |   |   |   |   |   pages <= 0.018001: low_rating (5.0)
+|   |   |   |   |   |   |   pages > 0.018001: high_rating (15.0/5.0)
+|   |   |   |   |   |   has_series > 0: high_rating (14.0/2.0)
+|   |   |   publication_year = '(2016.5-2017.5]'
+|   |   |   |   has_series <= 0
+|   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   genre_nonfiction <= 0
+|   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   number_of_genres <= 0.4: high_rating (33.0/4.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.4: low_rating (8.0/2.0)
+|   |   |   |   |   |   |   format_ebook > 0: high_rating (38.0/12.0)
+|   |   |   |   |   |   genre_nonfiction > 0
+|   |   |   |   |   |   |   number_of_genres <= 0.4
+|   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   pages <= 0.01976
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.2: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.2: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   pages > 0.01976: high_rating (3.0)
+|   |   |   |   |   |   |   |   format_ebook > 0: low_rating (5.0)
+|   |   |   |   |   |   |   number_of_genres > 0.4: high_rating (114.0/34.0)
+|   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   title_length <= 0.096: low_rating (5.0)
+|   |   |   |   |   |   title_length > 0.096: high_rating (6.0)
+|   |   |   |   has_series > 0: high_rating (181.0/26.0)
+|   |   |   publication_year = '(2017.5-2018.5]': high_rating (296.0/55.0)
+|   |   |   publication_year = '(2018.5-2019.5]': high_rating (226.0/31.0)
+|   |   |   publication_year = '(2019.5-2020.5]': high_rating (97.0/13.0)
+|   |   |   publication_year = '(2020.5-2028]': high_rating (0.0)
+|   |   |   publication_year = '(2028-inf)': high_rating (1.0)
+|   |   genre_fiction > 0
+|   |   |   has_series <= 0
+|   |   |   |   pages <= 0.007038
+|   |   |   |   |   pages <= 0.005143
+|   |   |   |   |   |   genre_mystery <= 0: high_rating (639.0/207.0)
+|   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   pages <= 0.000812: low_rating (18.0/2.0)
+|   |   |   |   |   |   |   pages > 0.000812: high_rating (49.0/23.0)
+|   |   |   |   |   pages > 0.005143
+|   |   |   |   |   |   publication_year = '(-inf-1961.5]'
+|   |   |   |   |   |   |   title_length <= 0.108: low_rating (5.0)
+|   |   |   |   |   |   |   title_length > 0.108: high_rating (5.0/1.0)
+|   |   |   |   |   |   publication_year = '(1961.5-1968.5]': high_rating (2.0/1.0)
+|   |   |   |   |   |   publication_year = '(1968.5-1972.5]': high_rating (2.0/1.0)
+|   |   |   |   |   |   publication_year = '(1972.5-1975.5]': high_rating (1.0)
+|   |   |   |   |   |   publication_year = '(1975.5-1978.5]': high_rating (3.0/1.0)
+|   |   |   |   |   |   publication_year = '(1978.5-1980.5]': low_rating (1.0)
+|   |   |   |   |   |   publication_year = '(1980.5-1982.5]': low_rating (6.0/1.0)
+|   |   |   |   |   |   publication_year = '(1982.5-1983.5]': low_rating (0.0)
+|   |   |   |   |   |   publication_year = '(1983.5-1984.5]'
+|   |   |   |   |   |   |   pages <= 0.006226: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   pages > 0.006226: high_rating (3.0)
+|   |   |   |   |   |   publication_year = '(1984.5-1985.5]': high_rating (5.0/2.0)
+|   |   |   |   |   |   publication_year = '(1985.5-1986.5]': low_rating (5.0)
+|   |   |   |   |   |   publication_year = '(1986.5-1987.5]': high_rating (3.0/1.0)
+|   |   |   |   |   |   publication_year = '(1987.5-1988.5]': high_rating (2.0)
+|   |   |   |   |   |   publication_year = '(1988.5-1989.5]': low_rating (5.0/2.0)
+|   |   |   |   |   |   publication_year = '(1989.5-1990.5]': high_rating (4.0/1.0)
+|   |   |   |   |   |   publication_year = '(1990.5-1991.5]': low_rating (0.0)
+|   |   |   |   |   |   publication_year = '(1991.5-1992.5]'
+|   |   |   |   |   |   |   number_of_genres <= 0.8: low_rating (4.0)
+|   |   |   |   |   |   |   number_of_genres > 0.8: high_rating (4.0/1.0)
+|   |   |   |   |   |   publication_year = '(1992.5-1993.5]': low_rating (6.0/1.0)
+|   |   |   |   |   |   publication_year = '(1993.5-1994.5]': high_rating (14.0/7.0)
+|   |   |   |   |   |   publication_year = '(1994.5-1995.5]'
+|   |   |   |   |   |   |   pages <= 0.006632: high_rating (7.0/3.0)
+|   |   |   |   |   |   |   pages > 0.006632: low_rating (2.0)
+|   |   |   |   |   |   publication_year = '(1995.5-1996.5]': high_rating (8.0/3.0)
+|   |   |   |   |   |   publication_year = '(1996.5-1997.5]'
+|   |   |   |   |   |   |   pages <= 0.006429: high_rating (5.0)
+|   |   |   |   |   |   |   pages > 0.006429: low_rating (7.0/2.0)
+|   |   |   |   |   |   publication_year = '(1997.5-1998.5]'
+|   |   |   |   |   |   |   pages <= 0.006632: low_rating (8.0/2.0)
+|   |   |   |   |   |   |   pages > 0.006632: high_rating (3.0)
+|   |   |   |   |   |   publication_year = '(1998.5-1999.5]'
+|   |   |   |   |   |   |   pages <= 0.00582: high_rating (7.0/2.0)
+|   |   |   |   |   |   |   pages > 0.00582: low_rating (4.0)
+|   |   |   |   |   |   publication_year = '(1999.5-2000.5]': low_rating (10.0/4.0)
+|   |   |   |   |   |   publication_year = '(2000.5-2001.5]'
+|   |   |   |   |   |   |   title_length <= 0.096: high_rating (13.0/4.0)
+|   |   |   |   |   |   |   title_length > 0.096: low_rating (4.0)
+|   |   |   |   |   |   publication_year = '(2001.5-2002.5]': high_rating (10.0/5.0)
+|   |   |   |   |   |   publication_year = '(2002.5-2003.5]': low_rating (10.0/2.0)
+|   |   |   |   |   |   publication_year = '(2003.5-2004.5]'
+|   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   number_of_genres <= 0.9: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   title_length <= 0.052: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.052: high_rating (2.0)
+|   |   |   |   |   |   |   has_setting > 0: low_rating (3.0)
+|   |   |   |   |   |   publication_year = '(2004.5-2005.5]': low_rating (13.0/4.0)
+|   |   |   |   |   |   publication_year = '(2005.5-2006.5]'
+|   |   |   |   |   |   |   title_length <= 0.056: low_rating (6.0)
+|   |   |   |   |   |   |   title_length > 0.056: high_rating (16.0/5.0)
+|   |   |   |   |   |   publication_year = '(2006.5-2007.5]'
+|   |   |   |   |   |   |   pages <= 0.006632: high_rating (6.0/1.0)
+|   |   |   |   |   |   |   pages > 0.006632: low_rating (2.0)
+|   |   |   |   |   |   publication_year = '(2007.5-2008.5]': high_rating (11.0/2.0)
+|   |   |   |   |   |   publication_year = '(2008.5-2009.5]'
+|   |   |   |   |   |   |   title_length <= 0.06
+|   |   |   |   |   |   |   |   pages <= 0.006023
+|   |   |   |   |   |   |   |   |   pages <= 0.005481: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.005481: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   pages > 0.006023: low_rating (8.0)
+|   |   |   |   |   |   |   title_length > 0.06
+|   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.7: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.7: high_rating (7.0)
+|   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   pages <= 0.006361: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.006361: low_rating (2.0)
+|   |   |   |   |   |   publication_year = '(2009.5-2010.5]'
+|   |   |   |   |   |   |   pages <= 0.006767
+|   |   |   |   |   |   |   |   title_length <= 0.048: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   title_length > 0.048: low_rating (2.0)
+|   |   |   |   |   |   |   pages > 0.006767: high_rating (2.0)
+|   |   |   |   |   |   publication_year = '(2010.5-2011.5]'
+|   |   |   |   |   |   |   number_of_genres <= 0.9: high_rating (3.0)
+|   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   pages <= 0.005752: high_rating (2.0)
+|   |   |   |   |   |   |   |   pages > 0.005752: low_rating (6.0/1.0)
+|   |   |   |   |   |   publication_year = '(2011.5-2012.5]'
+|   |   |   |   |   |   |   title_length <= 0.104: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   title_length > 0.104: high_rating (3.0)
+|   |   |   |   |   |   publication_year = '(2012.5-2013.5]'
+|   |   |   |   |   |   |   number_of_genres <= 0.4: low_rating (2.0)
+|   |   |   |   |   |   |   number_of_genres > 0.4
+|   |   |   |   |   |   |   |   pages <= 0.005752: low_rating (2.0)
+|   |   |   |   |   |   |   |   pages > 0.005752: high_rating (3.0)
+|   |   |   |   |   |   publication_year = '(2013.5-2014.5]'
+|   |   |   |   |   |   |   number_of_genres <= 0.3: high_rating (2.0)
+|   |   |   |   |   |   |   number_of_genres > 0.3: low_rating (4.0)
+|   |   |   |   |   |   publication_year = '(2014.5-2015.5]'
+|   |   |   |   |   |   |   title_length <= 0.072: low_rating (3.0)
+|   |   |   |   |   |   |   title_length > 0.072: high_rating (6.0/1.0)
+|   |   |   |   |   |   publication_year = '(2015.5-2016.5]': low_rating (6.0)
+|   |   |   |   |   |   publication_year = '(2016.5-2017.5]': low_rating (2.0)
+|   |   |   |   |   |   publication_year = '(2017.5-2018.5]': high_rating (3.0/1.0)
+|   |   |   |   |   |   publication_year = '(2018.5-2019.5]': high_rating (4.0/1.0)
+|   |   |   |   |   |   publication_year = '(2019.5-2020.5]': high_rating (1.0)
+|   |   |   |   |   |   publication_year = '(2020.5-2028]': low_rating (0.0)
+|   |   |   |   |   |   publication_year = '(2028-inf)': low_rating (0.0)
+|   |   |   |   pages > 0.007038
+|   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   publication_year = '(-inf-1961.5]'
+|   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   pages <= 0.015226
+|   |   |   |   |   |   |   |   |   title_length <= 0.192: low_rating (23.0/5.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.192: high_rating (2.0)
+|   |   |   |   |   |   |   |   pages > 0.015226: high_rating (24.0/8.0)
+|   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   number_of_genres <= 0.7: low_rating (2.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.7
+|   |   |   |   |   |   |   |   |   title_length <= 0.036: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.036: high_rating (9.0/3.0)
+|   |   |   |   |   |   publication_year = '(1961.5-1968.5]'
+|   |   |   |   |   |   |   title_length <= 0.036: low_rating (9.0)
+|   |   |   |   |   |   |   title_length > 0.036
+|   |   |   |   |   |   |   |   pages <= 0.016377: low_rating (33.0/12.0)
+|   |   |   |   |   |   |   |   pages > 0.016377: high_rating (21.0/4.0)
+|   |   |   |   |   |   publication_year = '(1968.5-1972.5]'
+|   |   |   |   |   |   |   has_setting <= 0: low_rating (54.0/21.0)
+|   |   |   |   |   |   |   has_setting > 0: high_rating (10.0/4.0)
+|   |   |   |   |   |   publication_year = '(1972.5-1975.5]'
+|   |   |   |   |   |   |   has_setting <= 0: low_rating (48.0/14.0)
+|   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   number_of_genres <= 0.7: high_rating (2.0/1.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.7
+|   |   |   |   |   |   |   |   |   pages <= 0.026325: high_rating (8.0/2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.026325: low_rating (3.0)
+|   |   |   |   |   |   publication_year = '(1975.5-1978.5]'
+|   |   |   |   |   |   |   pages <= 0.025445: low_rating (57.0/21.0)
+|   |   |   |   |   |   |   pages > 0.025445: high_rating (7.0/1.0)
+|   |   |   |   |   |   publication_year = '(1978.5-1980.5]'
+|   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   title_length <= 0.048: low_rating (9.0/1.0)
+|   |   |   |   |   |   |   |   title_length > 0.048: high_rating (26.0/10.0)
+|   |   |   |   |   |   |   has_setting > 0: low_rating (7.0/2.0)
+|   |   |   |   |   |   publication_year = '(1980.5-1982.5]'
+|   |   |   |   |   |   |   title_length <= 0.112: low_rating (55.0/17.0)
+|   |   |   |   |   |   |   title_length > 0.112: high_rating (8.0/1.0)
+|   |   |   |   |   |   publication_year = '(1982.5-1983.5]'
+|   |   |   |   |   |   |   pages <= 0.018745
+|   |   |   |   |   |   |   |   title_length <= 0.084
+|   |   |   |   |   |   |   |   |   pages <= 0.009339: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   pages > 0.009339: low_rating (10.0)
+|   |   |   |   |   |   |   |   title_length > 0.084: high_rating (5.0)
+|   |   |   |   |   |   |   pages > 0.018745: high_rating (14.0/2.0)
+|   |   |   |   |   |   publication_year = '(1983.5-1984.5]': high_rating (42.0/18.0)
+|   |   |   |   |   |   publication_year = '(1984.5-1985.5]'
+|   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   |   title_length <= 0.112: low_rating (15.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.112: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.9: high_rating (15.0/3.0)
+|   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   title_length <= 0.028: high_rating (2.0)
+|   |   |   |   |   |   |   |   title_length > 0.028: low_rating (10.0/1.0)
+|   |   |   |   |   |   publication_year = '(1985.5-1986.5]'
+|   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   title_length <= 0.188
+|   |   |   |   |   |   |   |   |   pages <= 0.008594: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   pages > 0.008594: low_rating (43.0/11.0)
+|   |   |   |   |   |   |   |   title_length > 0.188: high_rating (3.0)
+|   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   pages <= 0.020437: low_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   pages > 0.020437
+|   |   |   |   |   |   |   |   |   title_length <= 0.052: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.052: high_rating (4.0)
+|   |   |   |   |   |   publication_year = '(1986.5-1987.5]': low_rating (62.0/29.0)
+|   |   |   |   |   |   publication_year = '(1987.5-1988.5]'
+|   |   |   |   |   |   |   has_setting <= 0: low_rating (53.0/18.0)
+|   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   title_length <= 0.144: low_rating (20.0/6.0)
+|   |   |   |   |   |   |   |   title_length > 0.144: high_rating (3.0)
+|   |   |   |   |   |   publication_year = '(1988.5-1989.5]'
+|   |   |   |   |   |   |   title_length <= 0.148
+|   |   |   |   |   |   |   |   pages <= 0.011301
+|   |   |   |   |   |   |   |   |   pages <= 0.00785
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.00785: low_rating (17.0)
+|   |   |   |   |   |   |   |   pages > 0.011301
+|   |   |   |   |   |   |   |   |   title_length <= 0.12
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (33.0/15.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.017866: high_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.017866: low_rating (9.0/3.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.12: low_rating (6.0)
+|   |   |   |   |   |   |   title_length > 0.148: high_rating (6.0)
+|   |   |   |   |   |   publication_year = '(1989.5-1990.5]'
+|   |   |   |   |   |   |   number_of_genres <= 0.6: high_rating (16.0/3.0)
+|   |   |   |   |   |   |   number_of_genres > 0.6: low_rating (62.0/25.0)
+|   |   |   |   |   |   publication_year = '(1990.5-1991.5]'
+|   |   |   |   |   |   |   has_setting <= 0: low_rating (68.0/19.0)
+|   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   title_length <= 0.096
+|   |   |   |   |   |   |   |   |   title_length <= 0.064: high_rating (19.0/8.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.064: low_rating (6.0)
+|   |   |   |   |   |   |   |   title_length > 0.096: high_rating (5.0)
+|   |   |   |   |   |   publication_year = '(1991.5-1992.5]': low_rating (91.0/39.0)
+|   |   |   |   |   |   publication_year = '(1992.5-1993.5]'
+|   |   |   |   |   |   |   title_length <= 0.172: low_rating (92.0/17.0)
+|   |   |   |   |   |   |   title_length > 0.172: high_rating (5.0/1.0)
+|   |   |   |   |   |   publication_year = '(1993.5-1994.5]'
+|   |   |   |   |   |   |   pages <= 0.027881: low_rating (117.0/35.0)
+|   |   |   |   |   |   |   pages > 0.027881: high_rating (25.0/6.0)
+|   |   |   |   |   |   publication_year = '(1994.5-1995.5]': low_rating (149.0/47.0)
+|   |   |   |   |   |   publication_year = '(1995.5-1996.5]'
+|   |   |   |   |   |   |   title_length <= 0.16: low_rating (143.0/44.0)
+|   |   |   |   |   |   |   title_length > 0.16: high_rating (13.0/3.0)
+|   |   |   |   |   |   publication_year = '(1996.5-1997.5]'
+|   |   |   |   |   |   |   title_length <= 0.068: low_rating (107.0/20.0)
+|   |   |   |   |   |   |   title_length > 0.068
+|   |   |   |   |   |   |   |   has_setting <= 0: high_rating (47.0/17.0)
+|   |   |   |   |   |   |   |   has_setting > 0: low_rating (15.0/4.0)
+|   |   |   |   |   |   publication_year = '(1997.5-1998.5]'
+|   |   |   |   |   |   |   title_length <= 0.1: low_rating (177.0/48.0)
+|   |   |   |   |   |   |   title_length > 0.1: high_rating (49.0/23.0)
+|   |   |   |   |   |   publication_year = '(1998.5-1999.5]': low_rating (255.0/76.0)
+|   |   |   |   |   |   publication_year = '(1999.5-2000.5]'
+|   |   |   |   |   |   |   title_length <= 0.144
+|   |   |   |   |   |   |   |   pages <= 0.029032: low_rating (188.0/53.0)
+|   |   |   |   |   |   |   |   pages > 0.029032
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (19.0/6.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.06: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.06
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.032212: high_rating (5.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.032212: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   title_length > 0.144: high_rating (19.0/6.0)
+|   |   |   |   |   |   publication_year = '(2000.5-2001.5]'
+|   |   |   |   |   |   |   pages <= 0.026054: low_rating (230.0/65.0)
+|   |   |   |   |   |   |   pages > 0.026054
+|   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.4: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.4
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.064
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.8: high_rating (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.8
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.027475: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.027475: low_rating (12.0/3.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.064
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.096: high_rating (10.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.096
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.144: low_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.144: high_rating (4.0)
+|   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.088
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.04: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.04: high_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.088: low_rating (3.0)
+|   |   |   |   |   |   publication_year = '(2001.5-2002.5]': low_rating (319.0/98.0)
+|   |   |   |   |   |   publication_year = '(2002.5-2003.5]'
+|   |   |   |   |   |   |   title_length <= 0.12
+|   |   |   |   |   |   |   |   pages <= 0.031603: low_rating (308.0/75.0)
+|   |   |   |   |   |   |   |   pages > 0.031603: high_rating (27.0/12.0)
+|   |   |   |   |   |   |   title_length > 0.12
+|   |   |   |   |   |   |   |   has_setting <= 0: high_rating (27.0/7.0)
+|   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.228: low_rating (8.0/2.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.228: high_rating (2.0)
+|   |   |   |   |   |   publication_year = '(2003.5-2004.5]': low_rating (375.0/109.0)
+|   |   |   |   |   |   publication_year = '(2004.5-2005.5]'
+|   |   |   |   |   |   |   pages <= 0.03228: low_rating (426.0/115.0)
+|   |   |   |   |   |   |   pages > 0.03228
+|   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: high_rating (11.0/1.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.072: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.072
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.034242: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.034242: high_rating (3.0)
+|   |   |   |   |   |   |   |   has_setting > 0: high_rating (10.0/5.0)
+|   |   |   |   |   |   publication_year = '(2005.5-2006.5]'
+|   |   |   |   |   |   |   pages <= 0.02761: low_rating (475.0/91.0)
+|   |   |   |   |   |   |   pages > 0.02761
+|   |   |   |   |   |   |   |   number_of_genres <= 0.5: high_rating (6.0/1.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.5
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.084: low_rating (33.0/9.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.084: high_rating (14.0/4.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (31.0/10.0)
+|   |   |   |   |   |   publication_year = '(2006.5-2007.5]': low_rating (474.0/91.0)
+|   |   |   |   |   |   publication_year = '(2007.5-2008.5]': low_rating (385.0/103.0)
+|   |   |   |   |   |   publication_year = '(2008.5-2009.5]'
+|   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   title_length <= 0.104: low_rating (665.0/212.0)
+|   |   |   |   |   |   |   |   title_length > 0.104
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (101.0/43.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.172: low_rating (38.0/13.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.172: high_rating (9.0/1.0)
+|   |   |   |   |   |   |   format_ebook > 0: high_rating (60.0/25.0)
+|   |   |   |   |   |   publication_year = '(2009.5-2010.5]'
+|   |   |   |   |   |   |   has_setting <= 0: low_rating (282.0/72.0)
+|   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   pages <= 0.023076: low_rating (70.0/10.0)
+|   |   |   |   |   |   |   |   pages > 0.023076
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.028: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.028
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.032415: high_rating (26.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.032415: low_rating (4.0)
+|   |   |   |   |   |   publication_year = '(2010.5-2011.5]': low_rating (417.0/124.0)
+|   |   |   |   |   |   publication_year = '(2011.5-2012.5]'
+|   |   |   |   |   |   |   number_of_genres <= 0.3
+|   |   |   |   |   |   |   |   format_ebook <= 0: high_rating (34.0/13.0)
+|   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   pages <= 0.028017: low_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   |   pages > 0.028017: high_rating (3.0)
+|   |   |   |   |   |   |   number_of_genres > 0.3
+|   |   |   |   |   |   |   |   format_ebook <= 0: low_rating (347.0/86.0)
+|   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (49.0/13.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.029438
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.084: low_rating (7.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.084: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.029438: high_rating (4.0)
+|   |   |   |   |   |   publication_year = '(2012.5-2013.5]': low_rating (380.0/127.0)
+|   |   |   |   |   |   publication_year = '(2013.5-2014.5]'
+|   |   |   |   |   |   |   number_of_genres <= 0.8
+|   |   |   |   |   |   |   |   title_length <= 0.016: low_rating (6.0)
+|   |   |   |   |   |   |   |   title_length > 0.016: high_rating (100.0/47.0)
+|   |   |   |   |   |   |   number_of_genres > 0.8
+|   |   |   |   |   |   |   |   format_ebook <= 0: low_rating (193.0/60.0)
+|   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   pages <= 0.02761
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.076: low_rating (21.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.076
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.096: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.096
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.108: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.108: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.020776: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.020776: low_rating (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.06: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.02761: high_rating (4.0)
+|   |   |   |   |   |   publication_year = '(2014.5-2015.5]'
+|   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   pages <= 0.027813
+|   |   |   |   |   |   |   |   |   title_length <= 0.144: low_rating (168.0/46.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.144: high_rating (14.0/4.0)
+|   |   |   |   |   |   |   |   pages > 0.027813
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.056: low_rating (10.0/3.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.056
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.112: high_rating (9.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.112: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: high_rating (13.0/3.0)
+|   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   number_of_genres <= 0.6: high_rating (17.0/2.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.6
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.02531: low_rating (36.0/15.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.02531: high_rating (9.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.020031: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.020031
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.022873: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.022873: high_rating (8.0/3.0)
+|   |   |   |   |   |   publication_year = '(2015.5-2016.5]'
+|   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   number_of_genres <= 0.9: high_rating (39.0/16.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.9: low_rating (155.0/60.0)
+|   |   |   |   |   |   |   format_ebook > 0: high_rating (72.0/27.0)
+|   |   |   |   |   |   publication_year = '(2016.5-2017.5]'
+|   |   |   |   |   |   |   format_ebook <= 0: low_rating (165.0/82.0)
+|   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   title_length <= 0.02: low_rating (5.0)
+|   |   |   |   |   |   |   |   title_length > 0.02
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (43.0/15.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.02761
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.088: low_rating (7.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.088: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.02761: high_rating (3.0)
+|   |   |   |   |   |   publication_year = '(2017.5-2018.5]'
+|   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.7: low_rating (10.0/3.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.7: high_rating (85.0/33.0)
+|   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.076: low_rating (20.0/7.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.076: high_rating (7.0/1.0)
+|   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   title_length <= 0.028: low_rating (4.0)
+|   |   |   |   |   |   |   |   title_length > 0.028
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.2: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.2: high_rating (47.0/8.0)
+|   |   |   |   |   |   publication_year = '(2018.5-2019.5]'
+|   |   |   |   |   |   |   number_of_genres <= 0.7: high_rating (41.0/9.0)
+|   |   |   |   |   |   |   number_of_genres > 0.7
+|   |   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   |   pages <= 0.023821: low_rating (7.0/1.0)
+|   |   |   |   |   |   |   |   |   pages > 0.023821: high_rating (2.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (81.0/36.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (26.0/12.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.023347: low_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.023347
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.024701: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.024701
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.08: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.08: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.064: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.064: high_rating (4.0)
+|   |   |   |   |   |   publication_year = '(2019.5-2020.5]'
+|   |   |   |   |   |   |   number_of_genres <= 0.5: high_rating (20.0/2.0)
+|   |   |   |   |   |   |   number_of_genres > 0.5
+|   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   pages <= 0.020031: low_rating (17.0/4.0)
+|   |   |   |   |   |   |   |   |   pages > 0.020031: high_rating (53.0/17.0)
+|   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.8: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.8: high_rating (10.0/2.0)
+|   |   |   |   |   |   publication_year = '(2020.5-2028]': high_rating (4.0)
+|   |   |   |   |   |   publication_year = '(2028-inf)': low_rating (0.0)
+|   |   |   |   |   genre_mystery > 0: low_rating (2489.0/537.0)
+|   |   |   has_series > 0
+|   |   |   |   pages <= 0.028152
+|   |   |   |   |   title_length <= 0.12
+|   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   title_length <= 0.04
+|   |   |   |   |   |   |   |   publication_year = '(-inf-1961.5]': high_rating (4.0/2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1961.5-1968.5]': low_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1968.5-1972.5]': high_rating (2.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1972.5-1975.5]': high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1975.5-1978.5]': low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1978.5-1980.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.019287: high_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   |   pages > 0.019287: low_rating (3.0)
+|   |   |   |   |   |   |   |   publication_year = '(1980.5-1982.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (3.0)
+|   |   |   |   |   |   |   |   publication_year = '(1982.5-1983.5]': high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1983.5-1984.5]': high_rating (4.0/2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1984.5-1985.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.032: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.032: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1985.5-1986.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: high_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1986.5-1987.5]': low_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1987.5-1988.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.012858: low_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.012858: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1988.5-1989.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   pages <= 0.021994: high_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.021994: low_rating (3.0)
+|   |   |   |   |   |   |   |   publication_year = '(1989.5-1990.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.032: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.032: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1990.5-1991.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.8: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.8
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.016: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.016
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.014279: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.014279: low_rating (10.0/2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1991.5-1992.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.028: high_rating (5.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.028
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.022264: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.022264: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (9.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1992.5-1993.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.5: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.5
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.032: low_rating (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.032: high_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: high_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1993.5-1994.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.032
+|   |   |   |   |   |   |   |   |   |   pages <= 0.018204: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.018204: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.032: low_rating (8.0/2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1994.5-1995.5]': low_rating (22.0/9.0)
+|   |   |   |   |   |   |   |   publication_year = '(1995.5-1996.5]': low_rating (13.0/3.0)
+|   |   |   |   |   |   |   |   publication_year = '(1996.5-1997.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (17.0/6.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.016241: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.016241: low_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1997.5-1998.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (14.0/4.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (3.0)
+|   |   |   |   |   |   |   |   publication_year = '(1998.5-1999.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.016: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.016: high_rating (18.0/7.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (8.0/3.0)
+|   |   |   |   |   |   |   |   publication_year = '(1999.5-2000.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (21.0/5.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.028: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.028: high_rating (8.0/2.0)
+|   |   |   |   |   |   |   |   publication_year = '(2000.5-2001.5]': low_rating (40.0/16.0)
+|   |   |   |   |   |   |   |   publication_year = '(2001.5-2002.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.024362: high_rating (37.0/15.0)
+|   |   |   |   |   |   |   |   |   pages > 0.024362: low_rating (14.0/4.0)
+|   |   |   |   |   |   |   |   publication_year = '(2002.5-2003.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (34.0/9.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.032
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.021723: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.021723: high_rating (6.0/2.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.032: high_rating (9.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(2003.5-2004.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (44.0/11.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.023076: low_rating (12.0/2.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.023076: high_rating (12.0/3.0)
+|   |   |   |   |   |   |   |   publication_year = '(2004.5-2005.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.02: low_rating (11.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.02
+|   |   |   |   |   |   |   |   |   |   pages <= 0.019896: low_rating (19.0/5.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.019896
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.027475: high_rating (31.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.027475: low_rating (3.0)
+|   |   |   |   |   |   |   |   publication_year = '(2005.5-2006.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.021723: low_rating (67.0/21.0)
+|   |   |   |   |   |   |   |   |   pages > 0.021723
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.016: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.016
+|   |   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.023888: low_rating (15.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.023888: high_rating (12.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.032
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.024295: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.024295: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.032: high_rating (5.0)
+|   |   |   |   |   |   |   |   publication_year = '(2006.5-2007.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.021655: low_rating (80.0/24.0)
+|   |   |   |   |   |   |   |   |   pages > 0.021655: high_rating (54.0/16.0)
+|   |   |   |   |   |   |   |   publication_year = '(2007.5-2008.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.7: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.7: low_rating (60.0/19.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.024: high_rating (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.024: low_rating (21.0/8.0)
+|   |   |   |   |   |   |   |   publication_year = '(2008.5-2009.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: high_rating (26.0/8.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9: low_rating (172.0/84.0)
+|   |   |   |   |   |   |   |   publication_year = '(2009.5-2010.5]'
+|   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.028: low_rating (46.0/17.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.028
+|   |   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.025039: high_rating (40.0/18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.025039: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   |   |   has_setting > 0: high_rating (26.0/7.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (12.0/3.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.036: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.036: low_rating (3.0)
+|   |   |   |   |   |   |   |   publication_year = '(2010.5-2011.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (144.0/49.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.026054
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.024904: low_rating (46.0/19.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.024904: high_rating (7.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.026054: low_rating (6.0)
+|   |   |   |   |   |   |   |   publication_year = '(2011.5-2012.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.036
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   format_ebook <= 0: low_rating (97.0/43.0)
+|   |   |   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.012: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.012: high_rating (37.0/14.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (45.0/17.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.036: high_rating (39.0/13.0)
+|   |   |   |   |   |   |   |   publication_year = '(2012.5-2013.5]'
+|   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.6: high_rating (6.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.6: low_rating (123.0/54.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (61.0/27.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.036: low_rating (13.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.036: high_rating (3.0)
+|   |   |   |   |   |   |   |   publication_year = '(2013.5-2014.5]'
+|   |   |   |   |   |   |   |   |   format_ebook <= 0: low_rating (79.0/36.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0: high_rating (62.0/25.0)
+|   |   |   |   |   |   |   |   publication_year = '(2014.5-2015.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (85.0/33.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.012: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.012: low_rating (28.0/11.0)
+|   |   |   |   |   |   |   |   publication_year = '(2015.5-2016.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.8: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.8: high_rating (37.0/15.0)
+|   |   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.013399: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.013399: high_rating (19.0/5.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.023009
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.020505: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.020505: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.023009: low_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(2016.5-2017.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.7
+|   |   |   |   |   |   |   |   |   |   format_ebook <= 0: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.016783: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.016783: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.7: high_rating (39.0/13.0)
+|   |   |   |   |   |   |   |   publication_year = '(2017.5-2018.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.036: high_rating (22.0/8.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.036: low_rating (3.0)
+|   |   |   |   |   |   |   |   publication_year = '(2018.5-2019.5]': high_rating (23.0/5.0)
+|   |   |   |   |   |   |   |   publication_year = '(2019.5-2020.5]': high_rating (13.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(2020.5-2028]': high_rating (2.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(2028-inf)': low_rating (0.0)
+|   |   |   |   |   |   |   title_length > 0.04
+|   |   |   |   |   |   |   |   publication_year = '(-inf-1961.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.096
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.017527: high_rating (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.017527
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.023144: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.023144: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.096: low_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1961.5-1968.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.014076: low_rating (7.0/1.0)
+|   |   |   |   |   |   |   |   |   pages > 0.014076: high_rating (9.0/2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1968.5-1972.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: low_rating (7.0/1.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9: high_rating (8.0/2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1972.5-1975.5]': high_rating (17.0/5.0)
+|   |   |   |   |   |   |   |   publication_year = '(1975.5-1978.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.4: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.4: high_rating (36.0/12.0)
+|   |   |   |   |   |   |   |   publication_year = '(1978.5-1980.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.8: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.8: high_rating (20.0/7.0)
+|   |   |   |   |   |   |   |   publication_year = '(1980.5-1982.5]': high_rating (24.0/7.0)
+|   |   |   |   |   |   |   |   publication_year = '(1982.5-1983.5]': high_rating (31.0/12.0)
+|   |   |   |   |   |   |   |   publication_year = '(1983.5-1984.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.025242
+|   |   |   |   |   |   |   |   |   |   pages <= 0.015091
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.010557: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.010557: high_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.015091: low_rating (7.0/1.0)
+|   |   |   |   |   |   |   |   |   pages > 0.025242: high_rating (4.0)
+|   |   |   |   |   |   |   |   publication_year = '(1984.5-1985.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.064
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.021114: low_rating (6.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.021114: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.064: low_rating (9.0)
+|   |   |   |   |   |   |   |   publication_year = '(1985.5-1986.5]': high_rating (29.0/13.0)
+|   |   |   |   |   |   |   |   publication_year = '(1986.5-1987.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (23.0/11.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.068: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.068: high_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1987.5-1988.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.052: high_rating (6.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.052
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.096
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.015023: high_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.015023: low_rating (12.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.096: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1988.5-1989.5]': low_rating (23.0/10.0)
+|   |   |   |   |   |   |   |   publication_year = '(1989.5-1990.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: low_rating (8.0/2.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9: high_rating (28.0/11.0)
+|   |   |   |   |   |   |   |   publication_year = '(1990.5-1991.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.5: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.5
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (27.0/12.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.084
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.06: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.06: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.084: low_rating (3.0)
+|   |   |   |   |   |   |   |   publication_year = '(1991.5-1992.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.1: high_rating (20.0/2.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.1
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.112: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.112: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.015362: high_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.015362: low_rating (8.0)
+|   |   |   |   |   |   |   |   publication_year = '(1992.5-1993.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (35.0/14.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.019625
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.010557: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.010557: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.019625: high_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1993.5-1994.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (46.0/18.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (19.0/6.0)
+|   |   |   |   |   |   |   |   publication_year = '(1994.5-1995.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (42.0/20.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.8: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.8: high_rating (23.0/7.0)
+|   |   |   |   |   |   |   |   publication_year = '(1995.5-1996.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.6: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.6
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.06: high_rating (20.0/5.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.06
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.092
+|   |   |   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.012046: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.012046: low_rating (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (13.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.092
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.096: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.096
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.018678: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.018678: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1996.5-1997.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: high_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (42.0/17.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.048: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.048: high_rating (18.0/7.0)
+|   |   |   |   |   |   |   |   publication_year = '(1997.5-1998.5]': low_rating (95.0/42.0)
+|   |   |   |   |   |   |   |   publication_year = '(1998.5-1999.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (97.0/45.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.056: low_rating (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.056: high_rating (20.0/6.0)
+|   |   |   |   |   |   |   |   publication_year = '(1999.5-2000.5]': high_rating (136.0/66.0)
+|   |   |   |   |   |   |   |   publication_year = '(2000.5-2001.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.072
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.064: low_rating (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.064: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.072: low_rating (6.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9: high_rating (110.0/53.0)
+|   |   |   |   |   |   |   |   publication_year = '(2001.5-2002.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: low_rating (14.0/2.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (110.0/45.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (50.0/23.0)
+|   |   |   |   |   |   |   |   publication_year = '(2002.5-2003.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (152.0/70.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (68.0/31.0)
+|   |   |   |   |   |   |   |   publication_year = '(2003.5-2004.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.06: low_rating (58.0/19.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.06
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.015497: low_rating (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.015497
+|   |   |   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.8
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.022129
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.020437: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.020437: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.022129: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.8: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.9: high_rating (113.0/49.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: high_rating (80.0/31.0)
+|   |   |   |   |   |   |   |   publication_year = '(2004.5-2005.5]': high_rating (272.0/100.0)
+|   |   |   |   |   |   |   |   publication_year = '(2005.5-2006.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (248.0/110.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (124.0/59.0)
+|   |   |   |   |   |   |   |   publication_year = '(2006.5-2007.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.5: high_rating (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.5: low_rating (32.0/8.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.013941
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.006903: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.006903: low_rating (12.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.116: high_rating (33.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.116: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.013941: low_rating (149.0/71.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (130.0/62.0)
+|   |   |   |   |   |   |   |   publication_year = '(2007.5-2008.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.014279
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.7: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.7: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.9: high_rating (62.0/16.0)
+|   |   |   |   |   |   |   |   |   pages > 0.014279
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.5
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.056: low_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.056: high_rating (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.5: low_rating (235.0/111.0)
+|   |   |   |   |   |   |   |   publication_year = '(2008.5-2009.5]'
+|   |   |   |   |   |   |   |   |   format_ebook <= 0: high_rating (490.0/193.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.044: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.044
+|   |   |   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (33.0/14.0)
+|   |   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.052: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.052
+|   |   |   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.026054: high_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.026054: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.08: low_rating (4.0)
+|   |   |   |   |   |   |   |   publication_year = '(2009.5-2010.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.7
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.6: low_rating (15.0/2.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.6
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.019219: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.019219: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.7
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.013264: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.013264: high_rating (18.0/4.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.096: low_rating (177.0/87.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.096: high_rating (30.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (128.0/58.0)
+|   |   |   |   |   |   |   |   publication_year = '(2010.5-2011.5]'
+|   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.052: high_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.052
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.08: low_rating (17.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.08
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.023482: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.023482
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.025377: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.025377: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.9: high_rating (252.0/105.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (53.0/21.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0: high_rating (12.0/3.0)
+|   |   |   |   |   |   |   |   publication_year = '(2011.5-2012.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.092
+|   |   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.8
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.022129
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.052
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.021114: high_rating (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.021114: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.052: low_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.022129: high_rating (15.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.8: high_rating (8.0)
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.019896: high_rating (70.0/23.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.019896: low_rating (155.0/69.0)
+|   |   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.01976: low_rating (81.0/25.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.01976
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.072
+|   |   |   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.048: high_rating (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.048
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.024971: low_rating (20.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.024971: high_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.064: high_rating (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.064: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.072: high_rating (10.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.092
+|   |   |   |   |   |   |   |   |   |   format_ebook <= 0: high_rating (37.0/8.0)
+|   |   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(2012.5-2013.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.084: low_rating (10.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.084: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.016647: high_rating (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.016647
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.7: high_rating (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.068: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.068: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   format_ebook > 0: low_rating (24.0/8.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (9.0/2.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9: high_rating (338.0/136.0)
+|   |   |   |   |   |   |   |   publication_year = '(2013.5-2014.5]': high_rating (323.0/110.0)
+|   |   |   |   |   |   |   |   publication_year = '(2014.5-2015.5]'
+|   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.011707: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.011707: high_rating (74.0/18.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.06
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.064: low_rating (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.064
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.018678: high_rating (19.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.018678: low_rating (38.0/12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.020166: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.020166: high_rating (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.1: high_rating (16.0/3.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0: high_rating (78.0/14.0)
+|   |   |   |   |   |   |   |   publication_year = '(2015.5-2016.5]'
+|   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (76.0/27.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.052: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.052
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.1: low_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.1: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.6
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.3: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.3: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.6: high_rating (61.0/12.0)
+|   |   |   |   |   |   |   |   publication_year = '(2016.5-2017.5]': high_rating (185.0/43.0)
+|   |   |   |   |   |   |   |   publication_year = '(2017.5-2018.5]': high_rating (105.0/34.0)
+|   |   |   |   |   |   |   |   publication_year = '(2018.5-2019.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.021114
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.052: high_rating (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.052: low_rating (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.021114: high_rating (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   format_ebook > 0: high_rating (22.0/8.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   format_ebook <= 0: low_rating (9.0/3.0)
+|   |   |   |   |   |   |   |   |   |   format_ebook > 0: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(2019.5-2020.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.019422: low_rating (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.019422: high_rating (15.0/2.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(2020.5-2028]': high_rating (4.0)
+|   |   |   |   |   |   |   |   publication_year = '(2028-inf)': high_rating (0.0)
+|   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   pages <= 0.023009
+|   |   |   |   |   |   |   |   publication_year = '(-inf-1961.5]': low_rating (12.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1961.5-1968.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.013535: low_rating (10.0)
+|   |   |   |   |   |   |   |   |   pages > 0.013535: high_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1968.5-1972.5]': low_rating (11.0)
+|   |   |   |   |   |   |   |   publication_year = '(1972.5-1975.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (10.0/1.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.012519: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.012519: high_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1975.5-1978.5]': low_rating (10.0/3.0)
+|   |   |   |   |   |   |   |   publication_year = '(1978.5-1980.5]': high_rating (4.0/2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1980.5-1982.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.014144: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.014144: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1982.5-1983.5]': low_rating (7.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1983.5-1984.5]': low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1984.5-1985.5]': high_rating (7.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1985.5-1986.5]': low_rating (5.0)
+|   |   |   |   |   |   |   |   publication_year = '(1986.5-1987.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (3.0)
+|   |   |   |   |   |   |   |   publication_year = '(1987.5-1988.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.015903: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   pages > 0.015903: high_rating (6.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1988.5-1989.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9: low_rating (6.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1989.5-1990.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.015429: low_rating (6.0)
+|   |   |   |   |   |   |   |   |   pages > 0.015429
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0: high_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1990.5-1991.5]': low_rating (14.0/2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1991.5-1992.5]': low_rating (17.0/7.0)
+|   |   |   |   |   |   |   |   publication_year = '(1992.5-1993.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.056: high_rating (5.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.056: low_rating (14.0/5.0)
+|   |   |   |   |   |   |   |   publication_year = '(1993.5-1994.5]': low_rating (7.0/2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1994.5-1995.5]': low_rating (27.0/9.0)
+|   |   |   |   |   |   |   |   publication_year = '(1995.5-1996.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.009271: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   pages > 0.009271: low_rating (25.0/7.0)
+|   |   |   |   |   |   |   |   publication_year = '(1996.5-1997.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.019693: low_rating (16.0/5.0)
+|   |   |   |   |   |   |   |   |   pages > 0.019693: high_rating (7.0/2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1997.5-1998.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.048: high_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.048: low_rating (19.0/5.0)
+|   |   |   |   |   |   |   |   publication_year = '(1998.5-1999.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.019828
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.056
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.017798: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.017798: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.056: low_rating (13.0)
+|   |   |   |   |   |   |   |   |   pages > 0.019828
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.064: low_rating (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.064: high_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1999.5-2000.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.104: low_rating (43.0/13.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.104: high_rating (6.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(2000.5-2001.5]': low_rating (67.0/23.0)
+|   |   |   |   |   |   |   |   publication_year = '(2001.5-2002.5]': low_rating (51.0/14.0)
+|   |   |   |   |   |   |   |   publication_year = '(2002.5-2003.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.017933: low_rating (24.0/2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.017933
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.018948: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.018948: low_rating (20.0/5.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.068
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.019354: low_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.019354: high_rating (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.068: low_rating (4.0)
+|   |   |   |   |   |   |   |   publication_year = '(2003.5-2004.5]': low_rating (68.0/24.0)
+|   |   |   |   |   |   |   |   publication_year = '(2004.5-2005.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.044
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.021182: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.021182: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.02: high_rating (19.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.044
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.084: high_rating (26.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.084
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.014617: low_rating (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.014617: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.015497: high_rating (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.015497: low_rating (28.0/5.0)
+|   |   |   |   |   |   |   |   publication_year = '(2005.5-2006.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.00873: low_rating (6.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.00873: high_rating (64.0/29.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (63.0/21.0)
+|   |   |   |   |   |   |   |   publication_year = '(2006.5-2007.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (50.0/23.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (61.0/22.0)
+|   |   |   |   |   |   |   |   publication_year = '(2007.5-2008.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.018881: high_rating (23.0/9.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.018881: low_rating (29.0/8.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (41.0/19.0)
+|   |   |   |   |   |   |   |   publication_year = '(2008.5-2009.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.8: low_rating (18.0/2.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.8
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.056
+|   |   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.016715: high_rating (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.016715: low_rating (31.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (31.0/9.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.056
+|   |   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.096: high_rating (22.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.096: low_rating (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   format_ebook > 0: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.01949
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.012113: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.012113: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.06: high_rating (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.01949: low_rating (19.0/7.0)
+|   |   |   |   |   |   |   |   publication_year = '(2009.5-2010.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.092: low_rating (122.0/42.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.092: high_rating (7.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(2010.5-2011.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: low_rating (22.0/5.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (64.0/25.0)
+|   |   |   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (38.0/12.0)
+|   |   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.021452: low_rating (16.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.021452: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   has_setting > 0: high_rating (4.0/2.0)
+|   |   |   |   |   |   |   |   publication_year = '(2011.5-2012.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.019557
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (33.0/11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.014211: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.014211: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.04: low_rating (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.04: high_rating (12.0/5.0)
+|   |   |   |   |   |   |   |   |   pages > 0.019557
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.076: low_rating (39.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.076: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.020979: low_rating (11.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.020979
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.036: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.036
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.084: high_rating (9.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.084: low_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(2012.5-2013.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.015903: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.015903: low_rating (10.0)
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.9: high_rating (48.0/23.0)
+|   |   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: high_rating (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.9: low_rating (23.0/10.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (27.0/7.0)
+|   |   |   |   |   |   |   |   publication_year = '(2013.5-2014.5]'
+|   |   |   |   |   |   |   |   |   format_ebook <= 0: low_rating (58.0/21.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.012046: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.012046: high_rating (19.0/7.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.020031: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.020031: low_rating (3.0)
+|   |   |   |   |   |   |   |   publication_year = '(2014.5-2015.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.017121: high_rating (14.0/2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.017121
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.064: high_rating (21.0/8.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.064: low_rating (12.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(2015.5-2016.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (29.0/12.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.008662: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.008662: low_rating (11.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(2016.5-2017.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.021723
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.088: low_rating (20.0/4.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.088: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.021723: high_rating (5.0)
+|   |   |   |   |   |   |   |   publication_year = '(2017.5-2018.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.076: high_rating (18.0/2.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.076: low_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(2018.5-2019.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.068: low_rating (7.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.068: high_rating (4.0)
+|   |   |   |   |   |   |   |   publication_year = '(2019.5-2020.5]': high_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(2020.5-2028]': low_rating (0.0)
+|   |   |   |   |   |   |   |   publication_year = '(2028-inf)': low_rating (0.0)
+|   |   |   |   |   |   |   pages > 0.023009
+|   |   |   |   |   |   |   |   publication_year = '(-inf-1961.5]': high_rating (0.0)
+|   |   |   |   |   |   |   |   publication_year = '(1961.5-1968.5]': high_rating (0.0)
+|   |   |   |   |   |   |   |   publication_year = '(1968.5-1972.5]': high_rating (0.0)
+|   |   |   |   |   |   |   |   publication_year = '(1972.5-1975.5]': high_rating (0.0)
+|   |   |   |   |   |   |   |   publication_year = '(1975.5-1978.5]': high_rating (1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1978.5-1980.5]': high_rating (0.0)
+|   |   |   |   |   |   |   |   publication_year = '(1980.5-1982.5]': high_rating (0.0)
+|   |   |   |   |   |   |   |   publication_year = '(1982.5-1983.5]': high_rating (0.0)
+|   |   |   |   |   |   |   |   publication_year = '(1983.5-1984.5]': low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1984.5-1985.5]': high_rating (0.0)
+|   |   |   |   |   |   |   |   publication_year = '(1985.5-1986.5]': high_rating (0.0)
+|   |   |   |   |   |   |   |   publication_year = '(1986.5-1987.5]': low_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1987.5-1988.5]': low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1988.5-1989.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.026663: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.026663: high_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1989.5-1990.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.024159: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.024159: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1990.5-1991.5]': low_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1991.5-1992.5]': high_rating (7.0/2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1992.5-1993.5]': low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1993.5-1994.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.025039: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.025039: high_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1994.5-1995.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (4.0)
+|   |   |   |   |   |   |   |   publication_year = '(1995.5-1996.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.025039: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   pages > 0.025039: low_rating (4.0)
+|   |   |   |   |   |   |   |   publication_year = '(1996.5-1997.5]': low_rating (7.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(1997.5-1998.5]'
+|   |   |   |   |   |   |   |   |   title_length <= 0.052: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.052
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.072: low_rating (6.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.072: high_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1998.5-1999.5]': high_rating (11.0/2.0)
+|   |   |   |   |   |   |   |   publication_year = '(1999.5-2000.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: high_rating (11.0/4.0)
+|   |   |   |   |   |   |   |   publication_year = '(2000.5-2001.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.023888: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   pages > 0.023888: high_rating (16.0/7.0)
+|   |   |   |   |   |   |   |   publication_year = '(2001.5-2002.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.02646
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.088: low_rating (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.088: high_rating (5.0/1.0)
+|   |   |   |   |   |   |   |   |   pages > 0.02646: high_rating (9.0/3.0)
+|   |   |   |   |   |   |   |   publication_year = '(2002.5-2003.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (9.0/1.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.072: high_rating (9.0/2.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.072: low_rating (3.0)
+|   |   |   |   |   |   |   |   publication_year = '(2003.5-2004.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.6: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.6: high_rating (49.0/18.0)
+|   |   |   |   |   |   |   |   publication_year = '(2004.5-2005.5]': high_rating (61.0/28.0)
+|   |   |   |   |   |   |   |   publication_year = '(2005.5-2006.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (27.0/12.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: high_rating (33.0/14.0)
+|   |   |   |   |   |   |   |   publication_year = '(2006.5-2007.5]'
+|   |   |   |   |   |   |   |   |   pages <= 0.025986: low_rating (40.0/14.0)
+|   |   |   |   |   |   |   |   |   pages > 0.025986
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.02646: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.02646
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.036: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.036
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.027678
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.026866: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.026866: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pages > 0.027678: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0: high_rating (15.0/3.0)
+|   |   |   |   |   |   |   |   publication_year = '(2007.5-2008.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.088: high_rating (19.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.088: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0: high_rating (26.0/11.0)
+|   |   |   |   |   |   |   |   publication_year = '(2008.5-2009.5]'
+|   |   |   |   |   |   |   |   |   format_ebook <= 0: high_rating (70.0/33.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(2009.5-2010.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (46.0/22.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.024: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.024: high_rating (26.0/11.0)
+|   |   |   |   |   |   |   |   publication_year = '(2010.5-2011.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.7: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.7: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (46.0/18.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.023956: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.023956: high_rating (32.0/11.0)
+|   |   |   |   |   |   |   |   publication_year = '(2011.5-2012.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.8: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.8: high_rating (40.0/10.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (32.0/12.0)
+|   |   |   |   |   |   |   |   publication_year = '(2012.5-2013.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: low_rating (58.0/26.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.026122
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.068
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.032: low_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.032: high_rating (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.068: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.026122: high_rating (4.0)
+|   |   |   |   |   |   |   |   publication_year = '(2013.5-2014.5]'
+|   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   pages <= 0.023753: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.023753
+|   |   |   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (31.0/14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.064: low_rating (10.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.064: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.036: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.036: high_rating (12.0/3.0)
+|   |   |   |   |   |   |   |   publication_year = '(2014.5-2015.5]'
+|   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.9: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.02: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.02: high_rating (15.0/4.0)
+|   |   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (15.0/3.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.028: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.028: high_rating (10.0/2.0)
+|   |   |   |   |   |   |   |   publication_year = '(2015.5-2016.5]'
+|   |   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.052
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.02443: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.02443: low_rating (6.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.052
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.072: high_rating (11.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.072
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.092: low_rating (6.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.092: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0: high_rating (9.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(2016.5-2017.5]': high_rating (24.0/4.0)
+|   |   |   |   |   |   |   |   publication_year = '(2017.5-2018.5]'
+|   |   |   |   |   |   |   |   |   has_setting <= 0: high_rating (16.0/6.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.025242: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.025242: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   publication_year = '(2018.5-2019.5]'
+|   |   |   |   |   |   |   |   |   format_ebook <= 0: high_rating (8.0/2.0)
+|   |   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.064: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.064: low_rating (2.0)
+|   |   |   |   |   |   |   |   publication_year = '(2019.5-2020.5]': high_rating (5.0)
+|   |   |   |   |   |   |   |   publication_year = '(2020.5-2028]': high_rating (0.0)
+|   |   |   |   |   |   |   |   publication_year = '(2028-inf)': high_rating (0.0)
+|   |   |   |   |   title_length > 0.12
+|   |   |   |   |   |   has_setting <= 0: high_rating (1020.0/283.0)
+|   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   publication_year = '(-inf-1961.5]': low_rating (0.0)
+|   |   |   |   |   |   |   publication_year = '(1961.5-1968.5]': high_rating (1.0)
+|   |   |   |   |   |   |   publication_year = '(1968.5-1972.5]': low_rating (1.0)
+|   |   |   |   |   |   |   publication_year = '(1972.5-1975.5]': high_rating (2.0/1.0)
+|   |   |   |   |   |   |   publication_year = '(1975.5-1978.5]': low_rating (0.0)
+|   |   |   |   |   |   |   publication_year = '(1978.5-1980.5]': low_rating (0.0)
+|   |   |   |   |   |   |   publication_year = '(1980.5-1982.5]': low_rating (1.0)
+|   |   |   |   |   |   |   publication_year = '(1982.5-1983.5]': low_rating (0.0)
+|   |   |   |   |   |   |   publication_year = '(1983.5-1984.5]': high_rating (1.0)
+|   |   |   |   |   |   |   publication_year = '(1984.5-1985.5]': low_rating (1.0)
+|   |   |   |   |   |   |   publication_year = '(1985.5-1986.5]': low_rating (0.0)
+|   |   |   |   |   |   |   publication_year = '(1986.5-1987.5]': low_rating (0.0)
+|   |   |   |   |   |   |   publication_year = '(1987.5-1988.5]': low_rating (0.0)
+|   |   |   |   |   |   |   publication_year = '(1988.5-1989.5]': low_rating (0.0)
+|   |   |   |   |   |   |   publication_year = '(1989.5-1990.5]': low_rating (1.0)
+|   |   |   |   |   |   |   publication_year = '(1990.5-1991.5]': high_rating (3.0/1.0)
+|   |   |   |   |   |   |   publication_year = '(1991.5-1992.5]': low_rating (1.0)
+|   |   |   |   |   |   |   publication_year = '(1992.5-1993.5]': high_rating (2.0/1.0)
+|   |   |   |   |   |   |   publication_year = '(1993.5-1994.5]': high_rating (1.0)
+|   |   |   |   |   |   |   publication_year = '(1994.5-1995.5]': high_rating (4.0/2.0)
+|   |   |   |   |   |   |   publication_year = '(1995.5-1996.5]'
+|   |   |   |   |   |   |   |   pages <= 0.010692: high_rating (3.0)
+|   |   |   |   |   |   |   |   pages > 0.010692: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   publication_year = '(1996.5-1997.5]'
+|   |   |   |   |   |   |   |   pages <= 0.011369: high_rating (2.0)
+|   |   |   |   |   |   |   |   pages > 0.011369: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   publication_year = '(1997.5-1998.5]': low_rating (3.0/1.0)
+|   |   |   |   |   |   |   publication_year = '(1998.5-1999.5]': low_rating (9.0/4.0)
+|   |   |   |   |   |   |   publication_year = '(1999.5-2000.5]'
+|   |   |   |   |   |   |   |   pages <= 0.01279: low_rating (2.0)
+|   |   |   |   |   |   |   |   pages > 0.01279: high_rating (5.0/2.0)
+|   |   |   |   |   |   |   publication_year = '(2000.5-2001.5]': low_rating (9.0/2.0)
+|   |   |   |   |   |   |   publication_year = '(2001.5-2002.5]'
+|   |   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.148: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.148: low_rating (6.0/1.0)
+|   |   |   |   |   |   |   |   genre_mystery > 0: low_rating (3.0)
+|   |   |   |   |   |   |   publication_year = '(2002.5-2003.5]'
+|   |   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   |   pages <= 0.00697: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   pages > 0.00697: low_rating (8.0/3.0)
+|   |   |   |   |   |   |   |   genre_mystery > 0: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   publication_year = '(2003.5-2004.5]'
+|   |   |   |   |   |   |   |   title_length <= 0.14: low_rating (3.0)
+|   |   |   |   |   |   |   |   title_length > 0.14: high_rating (7.0/1.0)
+|   |   |   |   |   |   |   publication_year = '(2004.5-2005.5]'
+|   |   |   |   |   |   |   |   pages <= 0.021182: high_rating (11.0/4.0)
+|   |   |   |   |   |   |   |   pages > 0.021182: low_rating (6.0)
+|   |   |   |   |   |   |   publication_year = '(2005.5-2006.5]'
+|   |   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.164
+|   |   |   |   |   |   |   |   |   |   pages <= 0.018407
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.012722: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.012722: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.018407: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.164: low_rating (3.0)
+|   |   |   |   |   |   |   |   genre_mystery > 0: low_rating (4.0)
+|   |   |   |   |   |   |   publication_year = '(2006.5-2007.5]'
+|   |   |   |   |   |   |   |   pages <= 0.013467: high_rating (3.0)
+|   |   |   |   |   |   |   |   pages > 0.013467
+|   |   |   |   |   |   |   |   |   pages <= 0.025986: low_rating (12.0/1.0)
+|   |   |   |   |   |   |   |   |   pages > 0.025986: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   publication_year = '(2007.5-2008.5]': high_rating (12.0/2.0)
+|   |   |   |   |   |   |   publication_year = '(2008.5-2009.5]'
+|   |   |   |   |   |   |   |   genre_mystery <= 0: high_rating (28.0/12.0)
+|   |   |   |   |   |   |   |   genre_mystery > 0: low_rating (7.0/1.0)
+|   |   |   |   |   |   |   publication_year = '(2009.5-2010.5]'
+|   |   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.14: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.14
+|   |   |   |   |   |   |   |   |   |   pages <= 0.014956: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.014956
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.015565: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.015565: high_rating (2.0)
+|   |   |   |   |   |   |   |   genre_mystery > 0: low_rating (3.0)
+|   |   |   |   |   |   |   publication_year = '(2010.5-2011.5]'
+|   |   |   |   |   |   |   |   genre_mystery <= 0: high_rating (4.0)
+|   |   |   |   |   |   |   |   genre_mystery > 0: low_rating (2.0)
+|   |   |   |   |   |   |   publication_year = '(2011.5-2012.5]': low_rating (13.0/3.0)
+|   |   |   |   |   |   |   publication_year = '(2012.5-2013.5]'
+|   |   |   |   |   |   |   |   format_ebook <= 0: high_rating (7.0)
+|   |   |   |   |   |   |   |   format_ebook > 0: low_rating (5.0/2.0)
+|   |   |   |   |   |   |   publication_year = '(2013.5-2014.5]'
+|   |   |   |   |   |   |   |   title_length <= 0.128: low_rating (2.0)
+|   |   |   |   |   |   |   |   title_length > 0.128
+|   |   |   |   |   |   |   |   |   title_length <= 0.132: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.132: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   publication_year = '(2014.5-2015.5]': low_rating (7.0/2.0)
+|   |   |   |   |   |   |   publication_year = '(2015.5-2016.5]': high_rating (1.0)
+|   |   |   |   |   |   |   publication_year = '(2016.5-2017.5]': low_rating (3.0/1.0)
+|   |   |   |   |   |   |   publication_year = '(2017.5-2018.5]': low_rating (0.0)
+|   |   |   |   |   |   |   publication_year = '(2018.5-2019.5]': low_rating (0.0)
+|   |   |   |   |   |   |   publication_year = '(2019.5-2020.5]': low_rating (0.0)
+|   |   |   |   |   |   |   publication_year = '(2020.5-2028]': low_rating (0.0)
+|   |   |   |   |   |   |   publication_year = '(2028-inf)': low_rating (0.0)
+|   |   |   |   pages > 0.028152
+|   |   |   |   |   publication_year = '(-inf-1961.5]': high_rating (2.0)
+|   |   |   |   |   publication_year = '(1961.5-1968.5]': high_rating (2.0)
+|   |   |   |   |   publication_year = '(1968.5-1972.5]': low_rating (3.0/1.0)
+|   |   |   |   |   publication_year = '(1972.5-1975.5]'
+|   |   |   |   |   |   pages <= 0.033633: low_rating (2.0)
+|   |   |   |   |   |   pages > 0.033633: high_rating (2.0)
+|   |   |   |   |   publication_year = '(1975.5-1978.5]'
+|   |   |   |   |   |   pages <= 0.033566: high_rating (3.0)
+|   |   |   |   |   |   pages > 0.033566: low_rating (2.0)
+|   |   |   |   |   publication_year = '(1978.5-1980.5]': high_rating (4.0/1.0)
+|   |   |   |   |   publication_year = '(1980.5-1982.5]': high_rating (6.0/1.0)
+|   |   |   |   |   publication_year = '(1982.5-1983.5]'
+|   |   |   |   |   |   has_setting <= 0: high_rating (3.0)
+|   |   |   |   |   |   has_setting > 0: low_rating (2.0)
+|   |   |   |   |   publication_year = '(1983.5-1984.5]': high_rating (4.0/2.0)
+|   |   |   |   |   publication_year = '(1984.5-1985.5]': high_rating (3.0/1.0)
+|   |   |   |   |   publication_year = '(1985.5-1986.5]'
+|   |   |   |   |   |   pages <= 0.031806: high_rating (6.0)
+|   |   |   |   |   |   pages > 0.031806: low_rating (3.0/1.0)
+|   |   |   |   |   publication_year = '(1986.5-1987.5]'
+|   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   pages <= 0.029641: low_rating (2.0)
+|   |   |   |   |   |   |   pages > 0.029641
+|   |   |   |   |   |   |   |   pages <= 0.033972: high_rating (6.0)
+|   |   |   |   |   |   |   |   pages > 0.033972: low_rating (3.0/1.0)
+|   |   |   |   |   |   has_setting > 0: low_rating (2.0)
+|   |   |   |   |   publication_year = '(1987.5-1988.5]'
+|   |   |   |   |   |   title_length <= 0.032: low_rating (2.0)
+|   |   |   |   |   |   title_length > 0.032: high_rating (9.0/2.0)
+|   |   |   |   |   publication_year = '(1988.5-1989.5]': high_rating (11.0/1.0)
+|   |   |   |   |   publication_year = '(1989.5-1990.5]': high_rating (18.0/5.0)
+|   |   |   |   |   publication_year = '(1990.5-1991.5]': high_rating (13.0/4.0)
+|   |   |   |   |   publication_year = '(1991.5-1992.5]'
+|   |   |   |   |   |   genre_mystery <= 0: low_rating (16.0/7.0)
+|   |   |   |   |   |   genre_mystery > 0: high_rating (4.0)
+|   |   |   |   |   publication_year = '(1992.5-1993.5]': high_rating (26.0/7.0)
+|   |   |   |   |   publication_year = '(1993.5-1994.5]'
+|   |   |   |   |   |   title_length <= 0.024: low_rating (2.0)
+|   |   |   |   |   |   title_length > 0.024: high_rating (30.0/1.0)
+|   |   |   |   |   publication_year = '(1994.5-1995.5]'
+|   |   |   |   |   |   has_setting <= 0: high_rating (18.0/4.0)
+|   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   genre_mystery <= 0: low_rating (9.0/3.0)
+|   |   |   |   |   |   |   genre_mystery > 0: high_rating (4.0/1.0)
+|   |   |   |   |   publication_year = '(1995.5-1996.5]'
+|   |   |   |   |   |   pages <= 0.032618
+|   |   |   |   |   |   |   title_length <= 0.06: low_rating (8.0/1.0)
+|   |   |   |   |   |   |   title_length > 0.06: high_rating (2.0)
+|   |   |   |   |   |   pages > 0.032618: high_rating (18.0/3.0)
+|   |   |   |   |   publication_year = '(1996.5-1997.5]'
+|   |   |   |   |   |   title_length <= 0.084
+|   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   genre_mystery <= 0: low_rating (14.0/4.0)
+|   |   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.056: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.056: high_rating (3.0)
+|   |   |   |   |   |   |   has_setting > 0: high_rating (12.0/4.0)
+|   |   |   |   |   |   title_length > 0.084: high_rating (5.0)
+|   |   |   |   |   publication_year = '(1997.5-1998.5]'
+|   |   |   |   |   |   title_length <= 0.068: low_rating (22.0/8.0)
+|   |   |   |   |   |   title_length > 0.068: high_rating (13.0/2.0)
+|   |   |   |   |   publication_year = '(1998.5-1999.5]': high_rating (51.0/16.0)
+|   |   |   |   |   publication_year = '(1999.5-2000.5]'
+|   |   |   |   |   |   title_length <= 0.096: high_rating (45.0/16.0)
+|   |   |   |   |   |   title_length > 0.096: low_rating (5.0)
+|   |   |   |   |   publication_year = '(2000.5-2001.5]'
+|   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   pages <= 0.029979: high_rating (7.0)
+|   |   |   |   |   |   |   |   pages > 0.029979
+|   |   |   |   |   |   |   |   |   pages <= 0.034445
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.052: low_rating (7.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.052
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.032348: high_rating (6.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.032348: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   pages > 0.034445: high_rating (11.0/2.0)
+|   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   pages <= 0.038167: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   pages > 0.038167: low_rating (2.0)
+|   |   |   |   |   |   has_setting > 0: high_rating (11.0/1.0)
+|   |   |   |   |   publication_year = '(2001.5-2002.5]'
+|   |   |   |   |   |   pages <= 0.03722
+|   |   |   |   |   |   |   title_length <= 0.06
+|   |   |   |   |   |   |   |   title_length <= 0.052: high_rating (31.0/7.0)
+|   |   |   |   |   |   |   |   title_length > 0.052
+|   |   |   |   |   |   |   |   |   title_length <= 0.056: low_rating (7.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.056
+|   |   |   |   |   |   |   |   |   |   pages <= 0.030182: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.030182: high_rating (3.0)
+|   |   |   |   |   |   |   title_length > 0.06: high_rating (18.0/1.0)
+|   |   |   |   |   |   pages > 0.03722: low_rating (6.0/1.0)
+|   |   |   |   |   publication_year = '(2002.5-2003.5]'
+|   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   pages <= 0.033836: low_rating (5.0)
+|   |   |   |   |   |   |   pages > 0.033836: high_rating (5.0/1.0)
+|   |   |   |   |   |   number_of_genres > 0.9: high_rating (72.0/19.0)
+|   |   |   |   |   publication_year = '(2003.5-2004.5]': high_rating (106.0/38.0)
+|   |   |   |   |   publication_year = '(2004.5-2005.5]'
+|   |   |   |   |   |   has_setting <= 0: high_rating (80.0/20.0)
+|   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   pages <= 0.034716: high_rating (42.0/9.0)
+|   |   |   |   |   |   |   pages > 0.034716
+|   |   |   |   |   |   |   |   pages <= 0.036137: low_rating (8.0/2.0)
+|   |   |   |   |   |   |   |   pages > 0.036137
+|   |   |   |   |   |   |   |   |   pages <= 0.037355: high_rating (4.0)
+|   |   |   |   |   |   |   |   |   pages > 0.037355: low_rating (2.0)
+|   |   |   |   |   publication_year = '(2005.5-2006.5]'
+|   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   number_of_genres <= 0.6: high_rating (4.0/1.0)
+|   |   |   |   |   |   |   number_of_genres > 0.6: low_rating (6.0/1.0)
+|   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   title_length <= 0.096
+|   |   |   |   |   |   |   |   |   title_length <= 0.088: high_rating (85.0/35.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.088: low_rating (3.0)
+|   |   |   |   |   |   |   |   title_length > 0.096: high_rating (10.0)
+|   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.064
+|   |   |   |   |   |   |   |   |   |   pages <= 0.03052: high_rating (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.03052: low_rating (16.0/2.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.064: high_rating (7.0)
+|   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.044: high_rating (12.0/1.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.044: low_rating (21.0/8.0)
+|   |   |   |   |   publication_year = '(2006.5-2007.5]'
+|   |   |   |   |   |   number_of_genres <= 0.9: high_rating (11.0)
+|   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.076
+|   |   |   |   |   |   |   |   |   |   pages <= 0.033227: low_rating (35.0/11.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.033227: high_rating (34.0/10.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.076: high_rating (18.0/2.0)
+|   |   |   |   |   |   |   |   has_setting > 0: low_rating (22.0/9.0)
+|   |   |   |   |   |   |   genre_mystery > 0: low_rating (56.0/21.0)
+|   |   |   |   |   publication_year = '(2007.5-2008.5]'
+|   |   |   |   |   |   title_length <= 0.024: low_rating (12.0/2.0)
+|   |   |   |   |   |   title_length > 0.024
+|   |   |   |   |   |   |   pages <= 0.034716
+|   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   genre_mystery <= 0: low_rating (37.0/18.0)
+|   |   |   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.029438: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.029438
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.033904: high_rating (10.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.033904: low_rating (2.0)
+|   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.032551
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.030385
+|   |   |   |   |   |   |   |   |   |   |   |   pages <= 0.029776: high_rating (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   pages > 0.029776: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.030385: high_rating (6.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.032551: low_rating (6.0/1.0)
+|   |   |   |   |   |   |   |   |   genre_mystery > 0: high_rating (15.0/7.0)
+|   |   |   |   |   |   |   pages > 0.034716: high_rating (29.0/4.0)
+|   |   |   |   |   publication_year = '(2008.5-2009.5]'
+|   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   pages <= 0.033633
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.6: low_rating (4.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.6: high_rating (3.0/1.0)
+|   |   |   |   |   |   |   |   |   pages > 0.033633: high_rating (4.0)
+|   |   |   |   |   |   |   |   format_ebook > 0: low_rating (2.0)
+|   |   |   |   |   |   |   number_of_genres > 0.9: high_rating (188.0/55.0)
+|   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   pages <= 0.033295: high_rating (25.0/7.0)
+|   |   |   |   |   |   |   |   |   pages > 0.033295: low_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   has_setting > 0: high_rating (36.0/15.0)
+|   |   |   |   |   |   |   format_ebook > 0: high_rating (4.0)
+|   |   |   |   |   publication_year = '(2009.5-2010.5]'
+|   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   title_length <= 0.028
+|   |   |   |   |   |   |   |   |   title_length <= 0.016
+|   |   |   |   |   |   |   |   |   |   pages <= 0.03228: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.03228: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.016: low_rating (6.0)
+|   |   |   |   |   |   |   |   title_length > 0.028: high_rating (95.0/23.0)
+|   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   title_length <= 0.088: high_rating (43.0/15.0)
+|   |   |   |   |   |   |   |   title_length > 0.088: low_rating (4.0)
+|   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   title_length <= 0.064: high_rating (5.0/1.0)
+|   |   |   |   |   |   |   title_length > 0.064: low_rating (4.0)
+|   |   |   |   |   publication_year = '(2010.5-2011.5]'
+|   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.036
+|   |   |   |   |   |   |   |   |   |   number_of_genres <= 0.8: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   number_of_genres > 0.8
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.02: low_rating (5.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.024: high_rating (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.024: low_rating (8.0/2.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.036: high_rating (62.0/18.0)
+|   |   |   |   |   |   |   |   has_setting > 0: high_rating (28.0/9.0)
+|   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   pages <= 0.033972: high_rating (33.0/9.0)
+|   |   |   |   |   |   |   |   pages > 0.033972: low_rating (14.0/5.0)
+|   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   pages <= 0.029302: low_rating (4.0)
+|   |   |   |   |   |   |   pages > 0.029302
+|   |   |   |   |   |   |   |   genre_mystery <= 0: high_rating (8.0)
+|   |   |   |   |   |   |   |   genre_mystery > 0: low_rating (4.0/1.0)
+|   |   |   |   |   publication_year = '(2011.5-2012.5]': high_rating (164.0/49.0)
+|   |   |   |   |   publication_year = '(2012.5-2013.5]': high_rating (152.0/53.0)
+|   |   |   |   |   publication_year = '(2013.5-2014.5]'
+|   |   |   |   |   |   title_length <= 0.104
+|   |   |   |   |   |   |   number_of_genres <= 0.7
+|   |   |   |   |   |   |   |   number_of_genres <= 0.5: low_rating (4.0)
+|   |   |   |   |   |   |   |   number_of_genres > 0.5: high_rating (3.0)
+|   |   |   |   |   |   |   number_of_genres > 0.7
+|   |   |   |   |   |   |   |   has_setting <= 0: high_rating (101.0/26.0)
+|   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.088: high_rating (16.0/2.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.088: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.036: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.036: low_rating (11.0/4.0)
+|   |   |   |   |   |   title_length > 0.104: high_rating (10.0)
+|   |   |   |   |   publication_year = '(2014.5-2015.5]': high_rating (114.0/35.0)
+|   |   |   |   |   publication_year = '(2015.5-2016.5]'
+|   |   |   |   |   |   pages <= 0.035257
+|   |   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.029844: high_rating (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.029844
+|   |   |   |   |   |   |   |   |   |   |   title_length <= 0.044: low_rating (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   title_length > 0.044
+|   |   |   |   |   |   |   |   |   |   |   |   title_length <= 0.128: high_rating (13.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   title_length > 0.128: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0
+|   |   |   |   |   |   |   |   |   |   title_length <= 0.088: high_rating (9.0/2.0)
+|   |   |   |   |   |   |   |   |   |   title_length > 0.088: low_rating (2.0)
+|   |   |   |   |   |   |   |   format_ebook > 0
+|   |   |   |   |   |   |   |   |   pages <= 0.028558: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   pages > 0.028558: high_rating (13.0/1.0)
+|   |   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   title_length <= 0.032: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   title_length > 0.032: high_rating (11.0/3.0)
+|   |   |   |   |   |   |   |   has_setting > 0: low_rating (6.0/2.0)
+|   |   |   |   |   |   pages > 0.035257: high_rating (11.0)
+|   |   |   |   |   publication_year = '(2016.5-2017.5]'
+|   |   |   |   |   |   genre_mystery <= 0
+|   |   |   |   |   |   |   title_length <= 0.104: high_rating (54.0/13.0)
+|   |   |   |   |   |   |   title_length > 0.104: low_rating (4.0/1.0)
+|   |   |   |   |   |   genre_mystery > 0
+|   |   |   |   |   |   |   title_length <= 0.032: low_rating (6.0)
+|   |   |   |   |   |   |   title_length > 0.032: high_rating (17.0/4.0)
+|   |   |   |   |   publication_year = '(2017.5-2018.5]'
+|   |   |   |   |   |   number_of_genres <= 0.9
+|   |   |   |   |   |   |   number_of_genres <= 0.4: high_rating (2.0)
+|   |   |   |   |   |   |   number_of_genres > 0.4: low_rating (2.0)
+|   |   |   |   |   |   number_of_genres > 0.9
+|   |   |   |   |   |   |   pages <= 0.03025
+|   |   |   |   |   |   |   |   format_ebook <= 0
+|   |   |   |   |   |   |   |   |   has_setting <= 0
+|   |   |   |   |   |   |   |   |   |   pages <= 0.029302: low_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   pages > 0.029302
+|   |   |   |   |   |   |   |   |   |   |   pages <= 0.029844: high_rating (3.0)
+|   |   |   |   |   |   |   |   |   |   |   pages > 0.029844: low_rating (2.0)
+|   |   |   |   |   |   |   |   |   has_setting > 0: low_rating (4.0/1.0)
+|   |   |   |   |   |   |   |   format_ebook > 0: high_rating (7.0/1.0)
+|   |   |   |   |   |   |   pages > 0.03025: high_rating (44.0/4.0)
+|   |   |   |   |   publication_year = '(2018.5-2019.5]': high_rating (45.0/6.0)
+|   |   |   |   |   publication_year = '(2019.5-2020.5]'
+|   |   |   |   |   |   pages <= 0.032483
+|   |   |   |   |   |   |   pages <= 0.029167: high_rating (3.0)
+|   |   |   |   |   |   |   pages > 0.029167: low_rating (5.0/1.0)
+|   |   |   |   |   |   pages > 0.032483: high_rating (10.0)
+|   |   |   |   |   publication_year = '(2020.5-2028]': high_rating (1.0)
+|   |   |   |   |   publication_year = '(2028-inf)': high_rating (0.0)
+pages > 0.038844: high_rating (3544.0/794.0)
+
+Number of Leaves  : 	1466
+
+Size of the tree : 	2526
