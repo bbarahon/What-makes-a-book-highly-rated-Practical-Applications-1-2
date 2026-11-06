@@ -1,0 +1,398 @@
+Options: -L 0.3 -M 0.2 -N 100 -V 0 -S 42 -E 20 -H 32
+Full-data training seconds: 22.611028382
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.16593466058739906
+    Node 2    1.921773711373915
+    Node 3    1.446545892130787
+    Node 4    1.5592652940289078
+    Node 5    1.907206410675266
+    Node 6    3.15957600765914
+    Node 7    3.4330658112246324
+    Node 8    1.51027838653062
+    Node 9    3.335584691659118
+    Node 10    3.5321793537574204
+    Node 11    2.3199445128283855
+    Node 12    2.2803358328424537
+    Node 13    3.130235939933837
+    Node 14    0.5870205721260079
+    Node 15    0.964879208241617
+    Node 16    3.6919696545057374
+    Node 17    2.6844561485058347
+    Node 18    2.0895362263283936
+    Node 19    2.457172970319674
+    Node 20    -0.7764062028856752
+    Node 21    2.36803558145434
+    Node 22    1.629572737830508
+    Node 23    0.7814614984537002
+    Node 24    3.535083167717265
+    Node 25    3.233472061448665
+    Node 26    2.7239394224374123
+    Node 27    2.128391283723345
+    Node 28    0.6006315445849627
+    Node 29    0.8738763638671992
+    Node 30    0.5902156828999512
+    Node 31    0.666363553559828
+    Node 32    2.421420307260007
+    Node 33    -1.0378504727404112
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.16597719357964585
+    Node 2    -1.9657006949305624
+    Node 3    -1.4866930140447854
+    Node 4    -1.5554781764265615
+    Node 5    -1.925843621174984
+    Node 6    -3.200476565277043
+    Node 7    -3.4439304510663833
+    Node 8    -1.461120608543236
+    Node 9    -3.376884974813565
+    Node 10    -3.520144449543824
+    Node 11    -2.2993963852178
+    Node 12    -2.2619588104126938
+    Node 13    -3.15919019322915
+    Node 14    -0.5828328071048359
+    Node 15    -0.9650067066922715
+    Node 16    -3.690206932089205
+    Node 17    -2.659220117826149
+    Node 18    -2.0266654329227167
+    Node 19    -2.447948622561867
+    Node 20    0.7763453034433494
+    Node 21    -2.3707048283248895
+    Node 22    -1.6309234387709606
+    Node 23    -0.7811267736262713
+    Node 24    -3.4711700176956963
+    Node 25    -3.233867820873502
+    Node 26    -2.725867804125039
+    Node 27    -2.212872542557267
+    Node 28    -0.6004880257518784
+    Node 29    -0.8752324499811001
+    Node 30    -0.595757223912478
+    Node 31    -0.6663747853046927
+    Node 32    -2.368426163757183
+    Node 33    1.0378486483179452
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    1.5149524915860804
+    Attrib pages    9.91145843738447
+    Attrib has_series    -0.3970631465628364
+    Attrib number_of_genres    0.5359066935754709
+    Attrib title_length    -0.20454131332743092
+    Attrib format_ebook    -1.3935127494748119
+    Attrib genre_fiction    -1.4132411170261971
+    Attrib genre_mystery    -1.4184356107828822
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.46259510142676613
+    Attrib pages    5.8878500654464725
+    Attrib has_series    -0.06288825807217573
+    Attrib number_of_genres    0.3510303876017197
+    Attrib title_length    0.2904296927771087
+    Attrib format_ebook    -0.8507420379875658
+    Attrib genre_fiction    -1.3259457498347447
+    Attrib genre_mystery    -0.9565106104290585
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    1.8033308361429015
+    Attrib pages    10.524135624452434
+    Attrib has_series    2.632866478719598
+    Attrib number_of_genres    0.7680247250327373
+    Attrib title_length    2.315148622351891
+    Attrib format_ebook    1.0546460427501232
+    Attrib genre_fiction    3.22545169367794
+    Attrib genre_mystery    0.2331365108529275
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    1.5120157589701595
+    Attrib pages    10.434270690097238
+    Attrib has_series    -0.5213951009289941
+    Attrib number_of_genres    0.5980065176427554
+    Attrib title_length    -0.3159713176044003
+    Attrib format_ebook    -1.5692999670903596
+    Attrib genre_fiction    -1.4732101503057309
+    Attrib genre_mystery    -1.5008967903804264
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    6.885137719875239
+    Attrib pages    12.162565952442062
+    Attrib has_series    0.3035586099890262
+    Attrib number_of_genres    0.4365295609631025
+    Attrib title_length    0.288463773277578
+    Attrib format_ebook    0.5378117507783661
+    Attrib genre_fiction    -0.22222449702189317
+    Attrib genre_mystery    0.0560520916372213
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    7.1859586818900425
+    Attrib pages    17.901332982035402
+    Attrib has_series    0.05495138209591381
+    Attrib number_of_genres    0.3469542472812672
+    Attrib title_length    0.31496283152993687
+    Attrib format_ebook    0.25193501128813506
+    Attrib genre_fiction    -0.2889765502535765
+    Attrib genre_mystery    -5.815983219213762
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.40560887056300826
+    Attrib pages    6.125964806349842
+    Attrib has_series    -0.09423460519163401
+    Attrib number_of_genres    0.36872258304028477
+    Attrib title_length    0.24627893757563463
+    Attrib format_ebook    -0.9017823220912513
+    Attrib genre_fiction    -1.3571901928322736
+    Attrib genre_mystery    -0.9991306966994119
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    8.010629818520123
+    Attrib pages    13.452177623822854
+    Attrib has_series    0.2884279655796236
+    Attrib number_of_genres    0.5228528871926387
+    Attrib title_length    0.22370358951944205
+    Attrib format_ebook    0.6064205360468705
+    Attrib genre_fiction    -0.18196711815401156
+    Attrib genre_mystery    0.08811313633802816
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    8.834840680037301
+    Attrib pages    14.420157191424789
+    Attrib has_series    0.27088152185036973
+    Attrib number_of_genres    0.5916319712702085
+    Attrib title_length    0.17650427798846577
+    Attrib format_ebook    0.6423047851203825
+    Attrib genre_fiction    -0.16585407170510555
+    Attrib genre_mystery    0.10812710306940687
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    2.7790784948905247
+    Attrib pages    11.419015069837235
+    Attrib has_series    -0.1803345701437896
+    Attrib number_of_genres    0.4174625820048925
+    Attrib title_length    -0.11869696359754055
+    Attrib format_ebook    -1.0836089921979593
+    Attrib genre_fiction    -1.061291808135769
+    Attrib genre_mystery    -2.380816690119956
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    2.5559286939440042
+    Attrib pages    8.646473855566517
+    Attrib has_series    0.10558340963432519
+    Attrib number_of_genres    0.30751419291260385
+    Attrib title_length    0.3044655749841102
+    Attrib format_ebook    -0.39060090952310633
+    Attrib genre_fiction    -0.9728759717071216
+    Attrib genre_mystery    -0.9889335793276796
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    5.212122766826271
+    Attrib pages    15.137517831480833
+    Attrib has_series    0.3289742763776545
+    Attrib number_of_genres    -0.22010288828785562
+    Attrib title_length    1.3747578471816766
+    Attrib format_ebook    0.7371392307455283
+    Attrib genre_fiction    6.343266271382118
+    Attrib genre_mystery    0.45083438483562477
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -2.774509188774051
+    Attrib pages    4.857955296244917
+    Attrib has_series    -0.7873060376960497
+    Attrib number_of_genres    -3.445311348436893
+    Attrib title_length    0.8554417404710296
+    Attrib format_ebook    0.3931463890681342
+    Attrib genre_fiction    -0.2726330577655531
+    Attrib genre_mystery    -0.3583910806105111
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -6.346608981646945
+    Attrib pages    8.01171404442455
+    Attrib has_series    0.09636114261035811
+    Attrib number_of_genres    -19.007872955942585
+    Attrib title_length    3.0819283198991845
+    Attrib format_ebook    1.5646958299067437
+    Attrib genre_fiction    -2.425784030725822
+    Attrib genre_mystery    2.4785545338961974
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    8.974302132870518
+    Attrib pages    31.63440626191457
+    Attrib has_series    -0.27177053668840995
+    Attrib number_of_genres    -1.0801166695982474
+    Attrib title_length    3.5512898786400413
+    Attrib format_ebook    -9.298853668507679
+    Attrib genre_fiction    11.442721840172243
+    Attrib genre_mystery    0.7218259398750364
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    4.087158988944561
+    Attrib pages    11.604497574876566
+    Attrib has_series    0.5453913819552931
+    Attrib number_of_genres    -0.1537543652664195
+    Attrib title_length    1.2636525323807162
+    Attrib format_ebook    0.9252311166814454
+    Attrib genre_fiction    3.5903407349379095
+    Attrib genre_mystery    0.5365389743405337
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    1.7856665732687578
+    Attrib pages    10.044898247151043
+    Attrib has_series    -0.2608396036540055
+    Attrib number_of_genres    0.47110046270743
+    Attrib title_length    -0.11016602907185677
+    Attrib format_ebook    -1.172272233189386
+    Attrib genre_fiction    -1.280649009746852
+    Attrib genre_mystery    -1.784187618290006
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    3.3356601611530268
+    Attrib pages    9.777518871363183
+    Attrib has_series    0.11766823064390892
+    Attrib number_of_genres    0.30747836811064433
+    Attrib title_length    0.27482727586624855
+    Attrib format_ebook    -0.2985465638870989
+    Attrib genre_fiction    -0.8991321583715659
+    Attrib genre_mystery    -1.386599176910794
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    -7.290466446216979
+    Attrib pages    -2.652154663077543
+    Attrib has_series    -2.0184021751775405
+    Attrib number_of_genres    -8.404033635162639
+    Attrib title_length    0.45927811098697263
+    Attrib format_ebook    1.9133449112803993
+    Attrib genre_fiction    5.748888447473165
+    Attrib genre_mystery    9.357052756687606
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    2.9488192402520146
+    Attrib pages    8.956587871390447
+    Attrib has_series    0.1266285148536342
+    Attrib number_of_genres    0.30009162170549375
+    Attrib title_length    0.3167623717600867
+    Attrib format_ebook    -0.3206831091551387
+    Attrib genre_fiction    -0.9187463373274924
+    Attrib genre_mystery    -0.9601359468398262
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    0.4109357920290741
+    Attrib pages    7.157004150130318
+    Attrib has_series    1.578143828124149
+    Attrib number_of_genres    -0.17743489250042588
+    Attrib title_length    -0.4424455885728247
+    Attrib format_ebook    1.253484366347107
+    Attrib genre_fiction    -0.09956579811742346
+    Attrib genre_mystery    0.1779478838148668
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    -2.661998804193583
+    Attrib pages    4.0187141026541235
+    Attrib has_series    -0.8162370902543432
+    Attrib number_of_genres    -7.916738815539442
+    Attrib title_length    2.278245344362272
+    Attrib format_ebook    4.386177585260844
+    Attrib genre_fiction    4.963561456998141
+    Attrib genre_mystery    0.1548274980921879
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    8.710345296846418
+    Attrib pages    14.274695829457327
+    Attrib has_series    0.2737020336950116
+    Attrib number_of_genres    0.5813735314847912
+    Attrib title_length    0.18355630549374755
+    Attrib format_ebook    0.6375820734824301
+    Attrib genre_fiction    -0.1676974995387452
+    Attrib genre_mystery    0.10524817550569772
+Sigmoid Node 25
+    Inputs    Weights
+    Threshold    9.646940581747355
+    Attrib pages    36.49149195347982
+    Attrib has_series    0.12097183589793156
+    Attrib number_of_genres    -0.8194193353640064
+    Attrib title_length    0.4228627976448777
+    Attrib format_ebook    -9.913797186684649
+    Attrib genre_fiction    0.08917280422127127
+    Attrib genre_mystery    -12.10962924874633
+Sigmoid Node 26
+    Inputs    Weights
+    Threshold    4.316139847820085
+    Attrib pages    12.239142416724947
+    Attrib has_series    0.14134153538411992
+    Attrib number_of_genres    0.2786254009966667
+    Attrib title_length    0.34949403497650744
+    Attrib format_ebook    -0.027003168313972693
+    Attrib genre_fiction    -0.6532383637945394
+    Attrib genre_mystery    -3.147925976384113
+Sigmoid Node 27
+    Inputs    Weights
+    Threshold    2.193925858821248
+    Attrib pages    9.028489489981611
+    Attrib has_series    0.0019687612729857463
+    Attrib number_of_genres    0.3574995764732079
+    Attrib title_length    0.16700571563618025
+    Attrib format_ebook    -0.6201901878601128
+    Attrib genre_fiction    -1.0997714309554627
+    Attrib genre_mystery    -1.3828954785202932
+Sigmoid Node 28
+    Inputs    Weights
+    Threshold    -1.7838385870687359
+    Attrib pages    7.0215101241994855
+    Attrib has_series    4.156131905895918
+    Attrib number_of_genres    -3.3480073668743726
+    Attrib title_length    -1.991468522055023
+    Attrib format_ebook    2.6344859708082233
+    Attrib genre_fiction    -0.781982178893632
+    Attrib genre_mystery    2.198240476489627
+Sigmoid Node 29
+    Inputs    Weights
+    Threshold    3.335269307843142
+    Attrib pages    8.398131120292948
+    Attrib has_series    5.369816484516997
+    Attrib number_of_genres    0.49228207291491205
+    Attrib title_length    5.911684467555824
+    Attrib format_ebook    -0.25346881962346013
+    Attrib genre_fiction    -1.6157221053914987
+    Attrib genre_mystery    0.2126707074370225
+Sigmoid Node 30
+    Inputs    Weights
+    Threshold    -2.6584127330448895
+    Attrib pages    4.844179746839683
+    Attrib has_series    -0.7932015270085292
+    Attrib number_of_genres    -3.4411383854823883
+    Attrib title_length    0.8546043896485318
+    Attrib format_ebook    0.3051538283075765
+    Attrib genre_fiction    -0.12672894875434043
+    Attrib genre_mystery    -0.28124579356833673
+Sigmoid Node 31
+    Inputs    Weights
+    Threshold    1.8809862002812263
+    Attrib pages    8.093462874910026
+    Attrib has_series    6.03591237358191
+    Attrib number_of_genres    1.2995718297920806
+    Attrib title_length    16.88453147692968
+    Attrib format_ebook    -0.7061996225905198
+    Attrib genre_fiction    5.883548600819411
+    Attrib genre_mystery    -4.036752706410459
+Sigmoid Node 32
+    Inputs    Weights
+    Threshold    3.112691310433233
+    Attrib pages    9.615814350212062
+    Attrib has_series    0.10345654828823604
+    Attrib number_of_genres    0.31505391915676206
+    Attrib title_length    0.25839897322547917
+    Attrib format_ebook    -0.3450172223884926
+    Attrib genre_fiction    -0.9335385674845212
+    Attrib genre_mystery    -1.4016787878337498
+Sigmoid Node 33
+    Inputs    Weights
+    Threshold    -26.205554996701697
+    Attrib pages    -5.217087282318688
+    Attrib has_series    -2.6892699639399305
+    Attrib number_of_genres    0.20489121783700967
+    Attrib title_length    -18.4336928854593
+    Attrib format_ebook    -2.3601863695628076
+    Attrib genre_fiction    2.0429861728159504
+    Attrib genre_mystery    0.5477602810214167
+Class high_rating
+    Input
+    Node 0
+Class low_rating
+    Input
+    Node 1

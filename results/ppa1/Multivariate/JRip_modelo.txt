@@ -1,0 +1,21 @@
+Options: -F 3 -N 2.0 -O 2 -S 42
+Full-data training seconds: 12.253834174
+JRIP rules:
+===========
+
+(genre_fiction >= 1) and (has_series <= 0) and (pages <= 0.02761) and (pages >= 0.007918) => rating_class=low_rating (10108.0/3019.0)
+(genre_fiction >= 1) and (pages <= 0.031671) and (genre_mystery >= 1) and (has_series <= 0) => rating_class=low_rating (427.0/122.0)
+(genre_fiction >= 1) and (genre_mystery >= 1) and (pages <= 0.022941) => rating_class=low_rating (2156.0/906.0)
+(format_ebook <= 0) and (pages <= 0.022941) and (genre_fiction >= 1) and (title_length <= 0.036) and (pages >= 0.004737) => rating_class=low_rating (1061.0/417.0)
+(title_length <= 0.092) and (format_ebook <= 0) and (pages <= 0.031806) and (number_of_genres >= 0.1) and (has_series <= 0) and (pages >= 0.024227) and (genre_fiction >= 1) => rating_class=low_rating (668.0/252.0)
+(genre_fiction >= 1) and (title_length <= 0.04) and (pages <= 0.021655) and (format_ebook <= 0) and (pages >= 0.004737) => rating_class=low_rating (211.0/86.0)
+(genre_fiction >= 1) and (genre_mystery >= 1) and (pages <= 0.023821) => rating_class=low_rating (232.0/109.0)
+(title_length <= 0.084) and (number_of_genres >= 0.1) and (number_of_genres <= 0.8) and (format_ebook <= 0) and (pages >= 0.004669) and (pages <= 0.012384) => rating_class=low_rating (691.0/307.0)
+(title_length <= 0.072) and (number_of_genres >= 0.2) and (pages >= 0.003384) and (pages <= 0.009948) => rating_class=low_rating (968.0/465.0)
+(number_of_genres >= 0.2) and (title_length <= 0.092) and (format_ebook <= 0) and (pages >= 0.02064) and (pages <= 0.021249) => rating_class=low_rating (270.0/117.0)
+(format_ebook <= 0) and (number_of_genres >= 0.1) and (pages >= 0.013738) and (pages <= 0.019963) and (title_length <= 0.056) => rating_class=low_rating (1145.0/557.0)
+(title_length <= 0.092) and (genre_fiction >= 1) and (pages <= 0.038979) and (has_series <= 0) and (pages >= 0.0314) and (genre_mystery >= 1) => rating_class=low_rating (210.0/64.0)
+(number_of_genres >= 0.2) and (title_length <= 0.096) and (genre_fiction >= 1) and (pages >= 0.004331) and (title_length >= 0.068) and (pages <= 0.010692) => rating_class=low_rating (236.0/108.0)
+ => rating_class=high_rating (34095.0/11929.0)
+
+Number of Rules : 14

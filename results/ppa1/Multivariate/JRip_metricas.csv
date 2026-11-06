@@ -1,0 +1,2 @@
+model,accuracy,sensitivity,specificity,roc_auc,precision,f1,balanced_accuracy,mcc,kappa,pr_auc,mae,rmse,rae_percent,rrse_percent,correct,incorrect,unclassified,TP,FN,FP,TN,train_seconds,test_seconds
+JRip,0.6396013568,0.7793692281,0.4709666569,0.6380114872,0.6399587936,0.7028173662,0.6251679425,0.2642074589,0.2560970399,0.6345947674,0.4559251357,0.4782276794,91.9909411240,96.0672923682,33565,18913,0,22364,6331,12582,11201,66.0441,0.3293

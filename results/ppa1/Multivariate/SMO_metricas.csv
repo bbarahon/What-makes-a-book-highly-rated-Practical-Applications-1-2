@@ -1,0 +1,2 @@
+model,accuracy,sensitivity,specificity,roc_auc,precision,f1,balanced_accuracy,mcc,kappa,pr_auc,mae,rmse,rae_percent,rrse_percent,correct,incorrect,unclassified,TP,FN,FP,TN,train_seconds,test_seconds
+SMO,0.6235184268,0.8218156473,0.3842660724,0.6554997644,0.6169099566,0.7047712975,0.6030408599,0.2306527133,0.2134013846,0.6669139215,0.4658927675,0.4825079223,94.0020867083,96.9271157549,32721,19757,0,23582,5113,14644,9139,69.3335,0.2950
