@@ -1,0 +1,4 @@
+Options: -K 42 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Full-data training seconds: 0.021006571
+IB1 instance-based classifier
+using 42 nearest neighbour(s) for classification

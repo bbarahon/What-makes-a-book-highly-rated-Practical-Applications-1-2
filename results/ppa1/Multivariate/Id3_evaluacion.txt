@@ -1,0 +1,27 @@
+10-fold CV seed=42
+
+Correctly Classified Instances       33798               64.4041 %
+Incorrectly Classified Instances     18670               35.5768 %
+Kappa statistic                          0.265 
+K&B Relative Info Score                 13.5809 %
+K&B Information Score                 7079.2122 bits      0.1349 bits/instance
+Class complexity | order 0           52136.0687 bits      0.9935 bits/instance
+Class complexity | scheme           289051.138  bits      5.5091 bits/instance
+Complexity improvement     (Sf)    -236915.0693 bits     -4.5154 bits/instance
+Mean absolute error                      0.4374
+Root mean squared error                  0.4726
+Relative absolute error                 88.261  %
+Root relative squared error             94.9373 %
+UnClassified Instances                  10                0.0191 %
+Total Number of Instances            52478     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.787    0.528    0.643      0.787    0.707      0.274    0.684     0.702     high_rating
+                 0.472    0.213    0.647      0.472    0.546      0.274    0.684     0.628     low_rating
+Weighted Avg.    0.644    0.385    0.645      0.644    0.634      0.274    0.684     0.668     
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 22576  6113 |     a = high_rating
+ 12557 11222 |     b = low_rating
